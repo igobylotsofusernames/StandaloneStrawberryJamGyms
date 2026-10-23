@@ -1,0 +1,9 @@
+<decals>
+<!--GYM-->
+  <decal path="SJGyms/Gym/darkModeOn">
+    <depth value="-20000" />
+  </decal>
+  <decal path="SJGyms/Gym/lightModeOn">
+    <depth value="-20000" />
+  </decal>
+</decals>

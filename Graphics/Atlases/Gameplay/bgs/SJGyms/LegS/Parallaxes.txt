@@ -1,0 +1,62 @@
+Legs_00
+- Only = LegS-*
+- X & Y Loop = Yes
+
+LegS_01
+- Only = LegS-*
+- Scroll X = 0.01
+- Scroll Y = 0.015
+- X Loop = Yes
+- Y Loop = No
+
+LegS_02
+- Only = LegS-*
+- Scroll X = 0.07
+- Scroll Y = 0.012
+- X Loop = Yes
+- Y Loop = No
+
+LegS_03
+- X = 0.0   - Only = LegS-*
+- Y = 4.0   - Exclude = LegS-CR
+
+- Scroll X = 0.12
+- Scroll Y = 0.012
+- Instant In = Yes
+- Instant Out = Yes
+- X Loop = Yes
+- Y Loop = No
+
+LegS_04
+- Only = LegS-*
+- Speed X = 6.0
+- Speed Y = 0.0
+- Scroll X = 0.0
+- Scroll Y = 0.0
+- X Loop = Yes
+- Y Loop = Yes
+
+LegS_05
+- Only = LegS-*
+- Speed X = -4.5
+- Speed Y = 0.0
+- Scroll X = 0.0
+- Scroll Y = 0.0
+- X Loop = Yes
+- Y Loop = Yes
+
+LegS_06
+- Only = LegS-CR
+- X = 0.0
+- Y = 4.0
+- Scroll X = 0.0
+- Scroll Y = 0.012
+- Instant In = Yes
+- Instant Out = Yes
+- X Loop = Yes
+- Y Loop = Yes
+
+LegS_Dark
+- Only = LegS-*
+- Alpha = 0.1
+- X & Y Loop = No

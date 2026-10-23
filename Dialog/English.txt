@@ -1,0 +1,1849 @@
+SJGyms_0_Gyms=
+ SJ Gyms (Standalone)
+SJGyms_StandaloneNotice=
+ heyy, this is a standalone version of strawberry jam's gyms n library, i (lumi) did not create these maps, i simply renamed some assets n stuff to prevent conflict and uploaded it to github for convenience
+ all localization files besides english have been deleted, for the same "convenience" reason, these extracted gyms are mostly for me n my friends who havent particularly enjoyed sj itself
+ all credits have stayed as they are, i didnt dare touch em
+ fun fact: i had to replace every SJ2021/LibraryText entity in this room with viv's custom core messages... cause i thought i could get rid of Code/StrawberryJam2021.dll! (i couldnt)
+ i couldnt remove it so much.., heres another fun fact! SJ2021/ChangeThemeTrigger. awfully hardcoded, i ended up having to decompile the dll and fixin stuff up regardless. wow! thank you sj!
+ ...next thing i know all this effort was POINTLESS cause somebody else already extracted sj gyms and optimized em, mffp
+ this wouldve been an at most 3 hour project had i not needed to fix the god damn hardcoded dll.
+ well thankfully.. i beat my perfectionist self out of me (metaphysically) and just sloppily put together a bandaid fix for said dll.
+ this mod likely doesnt work with sj being enabled itself due to me not bothering to change the dll's internal id stuffs, but ultimately, you shouldnt even have standalone sj gyms enabled if you have sj itself. cause once again this was made for the people who just want the gyms n not the levels
+ (i hope this was worth the effort)
+ if this dialog is incomprehensible do know that ive been addin changin n removing stuff to this throughout the 2 days i worked on this
+ so ive sorta been phasing in and out of reality
+ eitherway, have fun! ~lumi
+
+modname_StrawberryJam2021=
+  Strawberry Jam Collab
+endscreen_collabname_StrawberryJam2021= 
+  SJ
+areacomplete_StrawberryJam2021=
+  Lobby Complete
+  
+SJ2021_lobby_gym_tutorial_info=
+  Gym
+SJ2021_lobby_gym_tutorial_controls=
+  Tech Tutorial
+
+# === Gym Credits
+
+SJGyms_0_Gyms_1_Beginner=
+  Beginner Gym
+SJGyms_0_Gyms_1_Beginner_collabcredits=
+  Gameplay:{# 2a2a2a} bryse0n, Circumplex,
+  Ecl1psed, Jadeturtle, PowerAV{#}
+  Gameplay Polish:{# 2a2a2a} bryse0n{#}
+  Code:{# 2a2a2a} Bigkahuna, maddie480, Viv, WEGFan{#}
+  Art:{# 2a2a2a} Circumplex, Maildropfolder, nerferd_, Nikko, Vexastrae{#}
+  Music:{# 2a2a2a} Ceph{#}
+  Screen Wipe:{# 2a2a2a} Vamp{#}
+  Writing:{# 2a2a2a} bryse0n, Circumplex, Owen Shirrell, DeathKontrol, valkyria{#}
+  Playtesting:{# 2a2a2a} Agent, Ecl1psed, fonda1515, MousseMoose,
+  Owen Shirrell, Pedrocrb, Prime, Real Hojo, Ru, VA2M{#}
+  Playbacks:{# 2a2a2a} Kataiser, pansear{#}
+  Captains:{# 2a2a2a} bryse0n, DeathKontrol, valkyria{#}
+  
+SJGyms_0_Gyms_2_Intermediate=
+  Intermediate Gym
+SJGyms_0_Gyms_2_Intermediate_collabcredits=
+  Gameplay:{# 2a2a2a} Aiden, bryse0n, fonda1515, Ecl1psed{#}
+  Gameplay Polish:{# 2a2a2a} bryse0n{#}
+  Code:{# 2a2a2a} Bigkahuna, maddie480, Viv, WEGFan{#}
+  Art:{# 2a2a2a} Circumplex, Maildropfolder, nerferd_, Nikko, Vexastrae{#}
+  Music:{# 2a2a2a} Ceph{#}
+  Screen Wipe:{# 2a2a2a} Vamp{#}
+  Writing:{# 2a2a2a} bryse0n, DeathKontrol, Owen Shirrell, valkyria{#}
+  Playtesting:{# 2a2a2a} Agent, Ecl1psed, fonda1515, MousseMoose,
+  Owen Shirrell, Pedrocrb, Prime, Real Hojo, Ru, VA2M{#}
+  Playbacks:{# 2a2a2a} Kataiser, Lost in Nowhere{#}
+  Captains:{# 2a2a2a} bryse0n, DeathKontrol, valkyria{#}
+  
+SJGyms_0_Gyms_3_Advanced=
+  Advanced Gym
+SJGyms_0_Gyms_3_Advanced_collabcredits=
+  Gameplay:{# 2a2a2a} Aiden, bryse0n, fonda1515, Owen Shirrell{#}
+  Gameplay Polish:{# 2a2a2a} bryse0n{#}
+  Code:{# 2a2a2a} Bigkahuna, maddie480, Viv, WEGFan{#}
+  Art:{# 2a2a2a} Circumplex, Maildropfolder, nerferd_, Nikko, Vexastrae{#}
+  Music:{# 2a2a2a} Ceph{#}
+  Screen Wipe:{# 2a2a2a} Vamp{#}
+  Writing:{# 2a2a2a} bryse0n, DeathKontrol, Owen Shirrell, valkyria{#}
+  Playtesting:{# 2a2a2a} Agent, Ecl1psed, fonda1515, MousseMoose,
+  Owen Shirrell, Pedrocrb, Prime, Real Hojo, Ru, VA2M{#}
+  Playbacks:{# 2a2a2a} Kataiser{#}
+  Captains:{# 2a2a2a} bryse0n, DeathKontrol, valkyria{#}  
+  
+SJGyms_0_Gyms_4_Expert=
+  Expert Gym
+SJGyms_0_Gyms_4_Expert_collabcredits=  
+  Gameplay:{# 2a2a2a} Aiden, Alisticious, bryse0n, Cabob,
+  DeathKontrol, Pedrocrb, Soloiini{#}
+  Gameplay Polish:{# 2a2a2a} bryse0n{#}
+  Code:{# 2a2a2a} Bigkahuna, maddie480, Viv, WEGFan{#}
+  Art:{# 2a2a2a} Circumplex, Maildropfolder, nerferd_, Nikko, Vexastrae{#}
+  Music:{# 2a2a2a} Ceph{#}
+  Screen Wipe:{# 2a2a2a} Vamp{#}
+  Writing:{# 2a2a2a} bryse0n, DeathKontrol, Owen Shirrell, valkyria{#}
+  Playtesting:{# 2a2a2a} Agent, Ecl1psed, fonda1515, MousseMoose,
+  Owen Shirrell, Pedrocrb, Prime, Real Hojo, Ru, VA2M{#}
+  Playbacks:{# 2a2a2a} Kataiser{#}
+  Captains:{# 2a2a2a} bryse0n, DeathKontrol, valkyria{#}
+  
+SJGyms_0_Gyms_5_Grandmaster=
+  Grandmaster Gym
+SJGyms_0_Gyms_5_Grandmaster_collabcredits=
+  Gameplay:{# 2a2a2a} Agent, bryse0n, DeathKontrol, Ecl1psed,
+  elio, Soloiini, Todd, valkyria{#}
+  Gameplay Polish:{# 2a2a2a} bryse0n{#}
+  Code:{# 2a2a2a} Bigkahuna, maddie480, Viv, WEGFan{#}
+  Art:{# 2a2a2a} Circumplex, Maildropfolder, nerferd_, Nikko, Vexastrae{#}
+  Music:{# 2a2a2a} Ceph{#}
+  Screen Wipe:{# 2a2a2a} Vamp{#}
+  Writing:{# 2a2a2a} bryse0n, DeathKontrol, Owen Shirrell, valkyria{#}
+  Playtesting:{# 2a2a2a} Agent, Ecl1psed, fonda1515, MousseMoose,
+  Owen Shirrell, Pedrocrb, Prime, Real Hojo, Ru, VA2M{#}
+  Playbacks:{# 2a2a2a} Kataiser{#}
+  Captains:{# 2a2a2a} bryse0n, DeathKontrol, valkyria{#}
+  
+SJGyms_0_Gyms_0_Prologue=
+  Library
+
+#HELPER DIALOG
+#Climbing: {#81AAD3} {#}
+#Grabbing: {#f04e4e} {#}
+#Holding X: {# F2F200} {#}
+#Dashing: {# F2F200} {#}
+#Jumping: {#1ffa85} {#}
+
+# === GYMS
+
+SJ2021_Gym_CloudJump= Cloud Jump
+SJ2021_Gym_DreamJump= Dream Jump
+SJ2021_Gym_DreamGrab= Dream Grab
+SJ2021_Gym_TheoBasics= Theo Basics
+SJ2021_Gym_FastBubble= Fast Bubble
+SJ2021_Gym_Hyper= Hyper
+SJ2021_Gym_JellyRegrab= Jelly Regrab
+SJ2021_Gym_Lift= Holdable Lift
+SJ2021_Gym_NeutralDrop= Neutral Drop
+SJ2021_Gym_Super= Super
+SJ2021_Gym_Wallbounce= Wallbounce
+SJ2021_Gym_BumperPufferBoost= Launch Boost
+SJ2021_Gym_CrouchJump= Crouch Jump
+SJ2021_Gym_HyperBunnyhop= Hyper Bunnyhop
+SJ2021_Gym_Jellyvator= Jellyvator
+SJ2021_Gym_MidairSuper= Midair Super
+SJ2021_Gym_NeutralJump= Neutral Jump
+SJ2021_Gym_ReverseTech= Reverse Tech
+SJ2021_Gym_TheoRegrab= Theo Regrab
+SJ2021_Gym_Cornerboost= Corner Boost
+SJ2021_Gym_Cornerjump= Corner Jump
+SJ2021_Gym_DreamHyper= Dream Hyper
+SJ2021_Gym_DreamSuper= Dream Super
+SJ2021_Gym_DreamHyperSuper= Dream Hyper/Super
+SJ2021_Gym_JellyClimb= Jelly Climb
+SJ2021_Gym_JellySmuggle= Jelly Smuggle
+SJ2021_Gym_Multiboost= Multiboost
+SJ2021_Gym_Theovator= Theovator
+SJ2021_Gym_Ultra= Ultra
+SJ2021_Gym_Backboost= Backboost
+SJ2021_Gym_ChainedUltra= Chained Ultra
+SJ2021_Gym_CoreTech= Core Tech
+SJ2021_Gym_CornerKick= Corner Kick
+SJ2021_Gym_CrouchDash= Crouch Dash
+SJ2021_Gym_DreamDoubleJump= Dream Double Jump
+SJ2021_Gym_FeatherTech= Feather Tech
+SJ2021_Gym_Gultra= Grounded Ultra
+SJ2021_Gym_Moonboost= Moonboost
+SJ2021_Gym_ReformTech= Reform Tech
+SJ2021_Gym_SpikeJump= Spike Jump
+SJ2021_Gym_SpikeWB= Spiked Wallbounce
+SJ2021_Gym_Superwave= Superwave
+SJ2021_Gym_Wallboost= Wallboost
+SJ2021_Gym_WBLeniency= Wallbounce Leniency
+
+SJ2021_Gym_Frames= Frames
+SJ2021_Gym_Speed= Speed
+SJ2021_Gym_Speed2= Speed:
+SJ2021_Gym_And= and
+SJ2021_Gym_Example= Example:
+SJ2021_Gym_Walking= Walking
+SJ2021_Gym_90= 90
+SJ2021_Gym_Walljumpx= Walljump
+SJ2021_Gym_130= 130
+SJ2021_Gym_Diagonaldashx= Diagonal Dash
+SJ2021_Gym_16971= 169.71
+SJ2021_Gym_Feather= Feather
+SJ2021_Gym_190= 190
+SJ2021_Gym_Dash= Dash
+SJ2021_Gym_240= 240
+SJ2021_Gym_Booster= Bubble
+SJ2021_Gym_325= 325
+SJ2021_Gym_0= 0
+SJ2021_Gym_5= 5
+SJ2021_Gym_10= 10
+SJ2021_Gym_15= 15
+SJ2021_Gym_20= 20
+SJ2021_Gym_Hitboxes= Hitboxes
+SJ2021_Gym_Hazards= Hazards
+SJ2021_Gym_Objects= Objects
+SJ2021_Gym_On= On
+SJ2021_Gym_Off= Off
+SJ2021_Gym_BlockBoosts= Block Boosts
+SJ2021_Gym_Bouncing= Bouncing
+SJ2021_Gym_CollisionLeniency= Collision Leniency
+SJ2021_Gym_CornerCorrection= Corner Correction
+SJ2021_Gym_CoyoteTime= Coyote Time
+SJ2021_Gym_Crouching= Crouching
+SJ2021_Gym_CrumbleBlocks= Crumble Blocks
+SJ2021_Gym_DashAttack= Dash Attack
+SJ2021_Gym_DashSpacing= Dash Spacing
+SJ2021_Gym_DashSpeed= Dash Speed
+SJ2021_Gym_FallingBlocks= Falling Blocks
+SJ2021_Gym_FallingSpeed= Falling Speed
+SJ2021_Gym_FeatherBoosts= Feather Boosts
+SJ2021_Gym_FreezeFrames= Freeze Frames
+SJ2021_Gym_Friction= Friction
+SJ2021_Gym_InputBuffering= Input Buffering
+SJ2021_Gym_JumpBoosts= Jump Boosts
+SJ2021_Gym_JumpControl= Jump Control
+SJ2021_Gym_MomentumCarrying= Delayed Block Boosts
+SJ2021_Gym_ScreenTransitions= Screen Transitions
+SJ2021_Gym_StaminaManagement= Stamina
+SJ2021_Gym_UltraMechanics= Ultra Mechanics
+SJ2021_Gym_Water= Water
+
+#Gym and Library bulletins
+SJ2021_Gym_Bulletin1=
+  Gyms are tutorial areas that teach you techniques you need to know for Strawberry Jam maps. Each difficulty has its own gym that teaches different techniques. 
+  Gym sections are divided into several subsections, each showcasing a different form or usage of the technique.
+  Some gym sections have one or two "final challenges" which test all the forms of the technique you learned in previous subsections.
+  Upon completing a subsection, you can activate a touch switch to unlock a teleport back to that subsection.
+  There are playbacks in each section to visually demonstrate the techniques.
+  You can use the Toggle Playbacks hotkey bound in Mod Options to turn them on or off (the default bind is Back/Tab).
+SJ2021_Gym_Bulletin2=
+  The Library explains a variety of game mechanics and physics quirks that do not fit in the regular gyms. 
+  This knowledge is useful and in some cases required for certain maps, so it is advised to visit the relevant sections as you progress.
+  For more information about the Library, enter it and read the sign in its hub.
+SJ2021_Gym_Bulletin3=
+  The Library is a collection of tutorials about game knowledge and behavior, which aren't necessarily restricted to any one difficulty. 
+  Tutorials may have multiple subsections. Subsections will go from easier to harder, and will have an indicator that shows what difficulty that mechanic is relevant to.
+  The indicators are: blue circles for Beginner, red triangles for Intermediate, yellow rectangles for Advanced, orange hourglasses for Expert, and purple stars for Grandmaster.
+  
+
+#Gym Map dialog. For dialog specific to tutorials, title the dialog “SJ2021_Gym_[Difficulty]_[Techname]#” with the number changing for each different dialog, if more than one.
+
+#Beginner Cloud Jump
+SJ2021_Gym_Beginner_CloudJump1=
+  When you step on a cloud, it will briefly move down before recoiling upwards, giving you a small vertical boost.
+  Jumping while the cloud is moving upwards will instead give you a large vertical boost.
+  For the largest possible boost, try to jump when the cloud is at its highest point.
+SJ2021_Gym_Beginner_CloudJump2=
+  If you jump immediately after landing on a cloud, you will not get the boost.
+  Pink clouds disappear when you jump or walk off them, allowing you to fall through.
+#Beginner Dream Grab
+SJ2021_Gym_Beginner_DreamGrab1= 
+  To perform a dream grab, hold the opposite horizontal direction and grab while moving through a dream block.
+  When you exit the dream block, you will immediately grab onto its side.
+SJ2021_Gym_Beginner_DreamGrab2= 
+  You can also perform a dream grab after moving diagonally through a dream block.
+
+#Beginner Dream Jump
+SJ2021_Gym_Beginner_DreamJump1=
+  To perform a dream jump, press jump as you exit a dream block.
+SJ2021_Gym_Beginner_DreamJump2=
+  Dream jumps can also be performed after moving diagonally through a dream block.
+  However, you cannot dream jump after moving vertically through a dream block.
+
+#Beginner Theo Tech
+SJ2021_Gym_Beginner_TheoTech1=
+  You can grab Theo while he is on the ground or in midair.  
+  Collect this touch switch and catch Theo as he falls.
+SJ2021_Gym_Beginner_TheoTech2=
+  Dashing into Theo while holding grab allows you to pick him up while preserving your momentum.
+SJ2021_Gym_Beginner_TheoTech3=
+  You cannot grab walls while holding Theo. However, you can still walljump.
+SJ2021_Gym_Beginner_TheoTech4=
+  You can move in midair while holding Theo. 
+  If Theo touches a red barrier in this section, he will be destroyed.
+
+
+#Intermediate Fast Bubble
+SJ2021_Gym_Intermediate_Fast1= 
+  Pressing dash while inside of a bubble will cause it to start moving immediately.
+
+#Intermediate Hyper
+SJ2021_Gym_Intermediate_Hyper1= 
+  To perform a hyper, dash down-diagonally and jump before the dash ends. 
+  This results in a jump that goes faster and farther horizontally, but not as high vertically.
+SJ2021_Gym_Intermediate_Hyper2= 
+  By delaying the jump, you can perform a hyper and refill your dash before leaving the ground. This is known as an extended hyper.
+SJ2021_Gym_Intermediate_Hyper3= 
+  A wavedash is an extended hyper that starts from the air, allowing it to be performed on smaller platforms.
+SJ2021_Gym_Intermediate_Hyper4= 
+  Hypers and wavedashes can be performed by using a bubble instead of a dash.
+
+#Intermediate Jelly Regrab
+SJ2021_Gym_Intermediate_JellyRegrab1= 
+  Dashing up-diagonally into a jelly while holding grab results in a horizontal and vertical boost.
+  Here, jump to the right while holding the jelly, throw it to the right, then dash up-right and regrab the jelly.
+
+#Intermediate Lift
+SJ2021_Gym_Intermediate_Lift1=
+  To perform a lift, throw a holdable against a wall, then dash upwards into it and hold grab as it bounces back.
+  This will result in a vertical boost.
+  Here, jump while holding the jelly, then throw it against the wall and perform a lift.
+SJ2021_Gym_Intermediate_Lift2=
+  Lifts can also be performed with 'heavy' holdables, such as Theo.
+  However, the timing for heavy holdable lifts is slightly more precise than it is for jellies.
+SJ2021_Gym_Intermediate_Lift3=
+  To optimize the amount of height gained from a lift, throw the holdable at the peak of your jump, then press and hold grab as late as possible.
+  The boost itself will give the same amount of height as a standard lift, but delaying the grab input results in more height overall because the boost starts later.
+
+#Intermediate Neutral Drop
+SJ2021_Gym_Intermediate_NeutralDrop1= 
+  To perform a neutral drop while standing on the ground, press down while holding a holdable object.
+  This will drop the holdable straight down instead of throwing it horizontally.
+  Here, grab Theo to activate the touch switch, then press down to drop him. 
+  Make sure to release grab after the drop to avoid picking him up again.
+SJ2021_Gym_Intermediate_NeutralDrop2= 
+  To perform a neutral drop while in midair, press down before releasing grab while holding a holdable object.
+  Down has a higher input priority than other directions, so you do not need to release left or right when dropping a holdable.
+  This does not apply to analog controls.
+SJ2021_Gym_Intermediate_NeutralDrop3= 
+  Here, time a neutral drop to make Theo collect the switch while you fly through the air.
+
+#Intermediate Super
+SJ2021_Gym_Intermediate_Super1= 
+  To perform a super, dash horizontally and jump before the dash ends. 
+  This results in a significantly longer jump with the same height.
+SJ2021_Gym_Intermediate_Super2= 
+  By delaying the jump, you can perform a super and refill your dash before leaving the ground. This is known as an extended super.
+SJ2021_Gym_Intermediate_Super3= 
+  Supers can be performed by using a bubble instead of a dash.
+
+#Intermediate Wall Bounce
+SJ2021_Gym_Intermediate_Wallbounce1=
+  To perform a wallbounce, line yourself up directly under a wall, then dash upwards.
+  When you are positioned next to the wall, press jump. Jump should be pressed during the dash.
+  This results in a walljump that gives much more height than normal.
+SJ2021_Gym_Intermediate_Wallbounce2=
+  The initial vertical and horizontal speed of a wallbounce is always the same.
+  This is true regardless of how early or late you input the jump.
+  However, if you wait longer before pressing jump, you will start the wallbounce from higher up on the wall, resulting in a higher peak height.
+  If you press jump too late, you will instead perform a regular walljump.
+SJ2021_Gym_Intermediate_Wallbounce3=
+  When performing a wallbounce, holding left or right after pressing dash will affect your trajectory.
+  However, holding up has no effect on wallbounce trajectory, so you can release up after dashing.
+SJ2021_Gym_Intermediate_Wallbounce4=
+  Wallbounces can be performed by using a bubble instead of a dash.
+
+
+#Advanced B/P Boosts
+SJ2021_Gym_Advanced_BPBoost1=
+  Some entities, including bumpers, puffers, and seekers, have explosions that give you a boost.
+  To get a much larger boost, known as a bumper/puffer/seeker boost, hold the direction the boost will launch you in just before getting launched.
+
+#Advanced Bunnyhop
+SJ2021_Gym_Advanced_Bunnyhop1= To perform a hyper bunnyhop, perform a short hyper, then do a full height jump as soon as you land.
+  This gives near-hyper speed with the height of a normal jump or super.
+
+#Advanced Crouch Jump
+SJ2021_Gym_Advanced_CrouchJump1=
+  Doing a crouch jump from the ground causes you to temporarily retain your crouched state in the air. This can be used to fit through one-tile gaps.
+  It is not necessary to continue holding down after leaving the ground.
+SJ2021_Gym_Advanced_CrouchJump2=
+  As long as you continue moving upwards after doing a crouch jump, you will retain your crouched state. This makes it possible to perform crouched climbjumps.
+  However, moving down will cause you to uncrouch immediately.
+  Here, do a crouch jump, then do several climbjumps in quick succession to fit through the one-tile gaps.
+
+#Advanced Jellyvator
+SJ2021_Gym_Advanced_Jellyvator1=
+  Jellyvators allow you to gain height with a jelly without throwing it against a wall.
+  To perform a jellyvator, jump and perform a neutral drop, then dash up into the jelly and grab it to get a big vertical boost.
+SJ2021_Gym_Advanced_Jellyvator2= 
+  To optimize the amount of height gained from a jellyvator, drop the jelly at the peak of your jump and grab it as late as possible.
+  The boost itself will give the same amount of height as a standard jellyvator, but delaying the grab input results in more height overall because the boost starts later.
+
+#Advanced Midair Super
+SJ2021_Gym_Advanced_MidairSuper1= 
+  Supers can be performed even if the dash is started in midair.
+  To extend the super, there needs to be sufficient distance between the start of the dash and the platform.
+  Here, jump and perform a super off the platform.
+SJ2021_Gym_Advanced_MidairSuper2= 
+  Midair supers are not always set up cleanly. Here, dash when the bottom of Madeline's sprite is aligned with the platform.
+  Jumpthroughs are often used to make midair supers more lenient because they align you with the platform if your dash is started from slightly too low.
+
+#Advanced Neutral Jump
+SJ2021_Gym_Advanced_NeutralJump1= 
+  To perform a neutral jump, jump off a wall without pressing a horizontal direction. This gives less horizontal distance than a normal walljump.
+SJ2021_Gym_Advanced_NeutralJump2= 
+  Moving back towards the wall after performing a neutral jump allows you to ascend the wall without using stamina.
+  Do not press a direction before jumping, as that will result in a normal walljump instead.
+SJ2021_Gym_Advanced_NeutralJump3= 
+  Neutral jumps usually give a consistent horizontal distance, so they are sometimes used to set up pixel-perfect horizontal moves.
+  Here, perform a neutral jump off the wall, then fall through the gap.
+  Press yourself fully against the wall before jumping in order to properly set your horizontal position.
+
+#Advanced Reverse
+SJ2021_Gym_Advanced_Reverse0=
+  This section uses techniques from the "Midair Super" section of the gym, so it is recommended to complete that section first.
+SJ2021_Gym_Advanced_Reverse1= 
+  Supers, hypers and wavedashes can be performed by dashing in one direction and then jumping in the opposite direction. This is known as reversing.
+  To perform a reverse super here, first dash left, then press right and jump.
+  Reverse supers can be performed on small platforms with a wall on one side to extend the super where it would otherwise be impossible.
+SJ2021_Gym_Advanced_Reverse2= 
+  To perform a reverse hyper here, first dash down-left, then press right and jump.
+  Reverse hypers can be performed on small platforms with a wall on one side to extend the hyper where it would otherwise be impossible.
+  When performing a reverse wavedash, touch the floor before jumping to avoid doing a walljump instead.
+SJ2021_Gym_Advanced_Reverse3= 
+  Reverse tech can be performed by using a bubble instead of a dash.
+SJ2021_Gym_Advanced_Reverse4=
+  Reverse supers can be performed even if the dash is started in midair. This is known as a reverse midair super.
+  Here, dash left at the peak of your jump, then perform a reverse super off the crumble block.
+
+#Advanced Theo Regrab
+SJ2021_Gym_Advanced_Theo_2Dash1= 
+  Theo regrabs can be performed with one or two dashes, but two dash regrabs are much easier.
+  Here, jump and throw Theo, then dash right followed by up-right to regrab him.
+SJ2021_Gym_Advanced_Theo_2Dash2= 
+  The order of the dashes can also be reversed. Here, dash up-right then right to grab Theo before he falls.
+
+#Expert Cornerboost
+SJ2021_Gym_Expert_Cboost0=
+  Corner boosts in the vanilla game sometimes fail based on your initial horizontal position. 
+  However, this gym section uses custom blocks to fix this issue and make corner boosts more consistent. 
+  Strawberry Jam maps often use these custom blocks or an otherwise consistent setup, but be aware that attempting to perform a corner boost using normal tiles may have inconsistent results.
+SJ2021_Gym_Expert_Cboost1= 
+  Climbjumping at the top of a wall launches you over the wall and gives a small boost to horizontal speed. This is known as a corner boost.
+  If you lose your speed, you likely jumped too late.
+  Here, take the red bubble to the right and perform a corner boost off the block.
+SJ2021_Gym_Expert_Cboost2= 
+  Here, dash horizontally into the top of the block and perform a corner boost.
+  Make sure your dash does not end before colliding with the block to avoid losing speed.
+SJ2021_Gym_Expert_Cboost3=
+  Corner boosts can also be performed when approaching the corner from a diagonal angle.
+  Here, perform a corner boost out of an up-diagonal dash.
+SJ2021_Gym_Expert_Cboost4=
+  It is possible to corner boost off corners with spikes on them.
+  Here, the red bubble lines up a spiked corner boost.
+SJ2021_Gym_Expert_Cboost5= 
+  Corner boosts can be performed without dashing or bubbling into the block.
+  Here, perform a wavedash and corner boost off the block.
+  After jumping to perform the wavedash, release and re-press jump for the corner boost.
+  If you lose your speed, your vertical position may be too low, or you may have climbjumped too late.
+
+#Expert Cornerjump
+SJ2021_Gym_Expert_Cjump1= 
+  To perform a corner jump, line yourself up against the wall and fall straight down, then buffer a jump off the corner of the spiked block.
+  If you die to the spikes, press jump earlier.
+SJ2021_Gym_Expert_Cjump2= 
+  If you climb a wall with spikes on top of it while holding up, you will not automatically climb onto it when you reach the top.
+  However, if you position yourself such that you barely touch the top of the wall, you can start a climbjump from a higher height.
+  This makes it possible to jump over 5 tiles of spikes, and thus the technique is known as a 5-jump.
+  The most common way to perform a 5-jump is to climb to the top of a wall, climbjump, fall down and buffer another climbjump.
+  If you do not get enough height, press jump earlier for the second climbjump.
+SJ2021_Gym_Expert_Cjump3= 
+  Another way to perform a 5-jump is to neutral jump into the top corner of a wall.
+  If you start the neutral jump from the correct vertical position, you will be able to climbjump off the corner.
+  This uses less stamina than the common 5-jump setup because it only requires a single climbjump instead of two.
+  Your stamina has been reduced for this section.
+SJ2021_Gym_Expert_Cjump4=
+  5-jumps allow you to gain more height than a normal jump because you start the jump from a higher point on the wall.
+  As a result, you can climbjump, fall down and buffer a walljump off the top corner of a wall to gain more horizontal distance.
+
+#Expert Dream Hyper
+SJ2021_Gym_Expert_DHyper1=
+  To perform a dream hyper, input a hyper immediately after exiting a dream block.
+  You can hold the directional inputs while moving through the dream block.
+  After exiting the dream block, you have up to 4 frames to perform a dream hyper.
+  If you enter the dream block while crouched, you will not be able to perform a dream hyper upon exiting.
+SJ2021_Gym_Expert_DHyper2=
+  If you are moving diagonally through a dream block and exit from the top or bottom, you can perform a dream hyper in either direction.
+  Performing such a dream hyper in the opposite direction of the one you entered from is known as a reverse dream hyper.
+SJ2021_Gym_Expert_DHyper3=
+  To perform a dream super, input a super immediately after exiting a dream block.
+  You can hold the directional inputs while moving through the dream block.
+  After exiting the block, you have up to 4 frames to perform a dream super.
+  This technique is very situational because the movement arc of a dream super is almost identical to that of a regular dream jump.
+SJ2021_Gym_Expert_DHyper4=
+  If you are moving diagonally through a dream block and you exit from the top or bottom, you can perform a dream super in either direction.
+  Performing such a dream super in the opposite direction of the one you entered from is known as a reverse dream super.
+
+#Expert Jelly Climb
+SJ2021_Gym_Expert_JellyClimb1= 
+  To perform a jelly climbjump, press yourself against the wall and perform a neutral drop. Next, do a climbjump, then grab the jelly and repeat the process.
+  Do not press jump before grabbing, as this will result in a walljump instead.
+SJ2021_Gym_Expert_JellyClimb2= 
+  To perform a jelly neutral, press yourself against the wall and perform a neutral drop.
+  Next, perform a neutral jump, then grab the jelly as you move back towards the wall and repeat the process.
+
+#Expert Jelly Smuggle
+SJ2021_Gym_Expert_JellySmuggle1= 
+  It is possible to carry a holdable object through a dream block after grabbing it if you dash close enough to the dream block.
+  This is known as a holdable smuggle, and it also allows you to perform a dream jump after exiting the dream block.
+  If you hit the dream block without entering it, you likely dashed from too far away.
+  If you enter the dream block without picking up the jelly, you either did not press grab quickly enough or were too close to the dream block before dashing.
+SJ2021_Gym_Expert_JellySmuggle2= 
+  After performing a holdable smuggle, it is possible to perform a dream grab.
+  This makes it possible to climb walls and dash while still holding the holdable.
+  Here, perform a dream grab after smuggling the jelly through the dream block, then climb up and perform a wavedash.
+SJ2021_Gym_Expert_JellySmuggle3= 
+  Holdable objects can be smuggled in any direction.
+  Downwards smuggles are only possible if you can perform the dash while holding the object, which usually requires a previous smuggle.
+
+#Expert Multi
+SJ2021_Gym_Expert_Multi0=
+  This section uses techniques from the "Ultra" section of the gym, so it is recommended to complete that section first.
+SJ2021_Gym_Expert_Multi1= 
+  Every time you jump off a moving block, its speed is added to yours.
+  Here, perform a hyper bunnyhop off the moving block to get boosted twice. This is known as a double block boost.
+SJ2021_Gym_Expert_Multi2=
+  If you jump or dash within 9 frames of leaving a moving block, you will get an additional speed boost. These boosts can stack additively.
+  Here, jump off the moving block and then dash right. Your dash will be longer and faster due to the two speed boosts.
+  Before the dash ends, grab the jelly. This will preserve the speed of the dash.
+SJ2021_Gym_Expert_Multi3= 
+  Down-diagonal dashes retain your speed after they end, while dashes in other directions reset your speed after they end.
+  As a result, multiboosts usually involve down-diagonal dashes, which often serve as ultra setups.
+  Here, jump off the moving block and then ultra.
+SJ2021_Gym_Expert_Multi4= 
+  Performing a hyper off a moving block followed by a down-diagonal dash is a common double block boost setup.
+SJ2021_Gym_Expert_Multi5= 
+  Another common setup involves performing a hyper bunnyhop off a moving block followed by a down-diagonal dash, resulting in three boosts.
+  This is an example of a triple block boost.
+  If you do not get enough speed, shorten the hyper to land on the moving block sooner.
+  You may also need to dash sooner after the bunnyhop if you are not getting the third boost.
+
+#Expert Theo Vator
+SJ2021_Gym_Expert_Theovator1= 
+  The inputs for a Theovator are the same as a jellyvator, but because Theo is heavier than a jelly, they need to be performed faster.
+  Starting from the air, neutral drop Theo, then dash up into him and hold grab.
+SJ2021_Gym_Expert_Theovator2= 
+  To optimize the amount of height gained from a Theovator, drop Theo at the peak of your jump and grab him as late as possible.
+  The boost itself will give the same amount of height as a standard Theovator, but delaying the grab input results in more height overall because the boost starts later.
+
+#Expert Ultra
+SJ2021_Gym_Expert_Ultra1= 
+  An ultra is a down-diagonal dash performed while moving at a high speed that ends before landing on the ground.
+  You will retain the speed of the down-diagonal dash after it ends. Upon landing, you will gain a 1.2x speed boost, known as an "ultra boost."
+  Here, use an extended hyper or wavedash to gain the initial speed, then dash down-diagonal towards the platform and jump off it.
+  If you do not get enough speed, try "tightening" the ultra by dashing sooner after the hyper, so less speed is lost in the air.
+  If you jump on the same frame you land (or buffer the jump), you may not get the boost.
+  As a result, it is recommended to try to "slide" on the ground for at least one frame before jumping.
+  See the "Ultra Mechanics" section of the Library for more information.
+SJ2021_Gym_Expert_Ultra2= 
+  An ultra requires a minimum of 3.5 tiles (28 pixels) of height for your dash to end before landing on the ground.
+  If you reach the ground and your dash ends on the ground, your speed will be reset to 160.
+  If you reach the ground and jump before your dash ends, you will perform a wavedash.
+  Here, only dash down-diagonal when you are completely above the red line.
+  For more information on the specific mechanics which make ultras work and information on how to optimize them, see the "Ultra Mechanics" section of the Library.
+SJ2021_Gym_Expert_Ultra3=
+  This section contains other common setups used to gain the initial speed required to perform an ultra.
+
+
+#Grandmaster Backboost
+SJ2021_Gym_Grandmaster_Backboost1=
+  When you throw a holdable object, you gain a small amount of speed in the opposite direction of the throw.
+  You can use this while moving to gain an extra speed boost by briefly turning around and throwing the object behind you. This is known as a backboost.
+  To maximize your speed, press the opposite direction of the one you are moving in for as little time as possible to minimize speed loss.
+  Here, dash into the jelly and backboost as late as possible (just before hitting the jelly barrier).
+SJ2021_Gym_Grandmaster_Backboost2=
+  Backboosts are commonly combined with ultras. Here, hyper into the jelly and perform a backboost, then immediately perform an ultra.
+  To maximize your speed, press the opposite direction for as few frames as possible to throw the holdable object, then input the ultra as soon as possible after throwing it.
+  If you do not get enough speed, make sure that you are actually throwing the jelly left and not neutral dropping it downwards.
+SJ2021_Gym_Grandmaster_Backboost3=
+  This section requires two backboosts in quick succession. Remember to dash as soon as possible after throwing the jellies.
+
+#Grandmaster Chain
+SJ2021_Gym_Grandmaster_Chain1= 
+  {anchor bottom}
+  Ultras multiply your horizontal speed by 1.2 upon landing on the ground.
+  Multiple ultras can be performed in succession, and the ultra boost stacks each time, allowing huge amounts of speed to be built up.
+  It is important to perform the first few ultras of a chain well so the multipliers of later ultras are applied to a higher base value.
+  If you do not get enough speed, try "tightening" the ultras by jumping and dashing earlier after each one to minimize speed loss.
+  If you jump on the same frame you land or buffer the jump, you will sometimes not get the ultra boost.
+  As a result, it is recommended to try to "slide" on the ground for at least one frame before jumping after an ultra.
+  See the "Ultra" section of the Expert Gym or the "Ultra Mechanics" section of the Library for more information.
+SJ2021_Gym_Grandmaster_Chain2= 
+  {anchor bottom}
+  An ultra requires a minimum of 3.5 tiles (28 pixels) of height for your dash to end before landing on the ground.
+  If you reach the ground and your dash ends on the ground, you will lose all speed.
+  If you reach the ground and jump before your dash ends, you will perform a wavedash.
+  Here, the vertical space between platforms gets smaller with each successive platform.
+  Only perform the ultras when you are completely above the red lines.
+
+#Grandmaster Core Hyper
+SJ2021_Gym_Grandmaster_CoreHyper1=
+  When a core block (also known as a bounce block) breaks, it gives a few coyote frames which can be used to perform a boosted jump, hyper, or super.
+  To perform a core hyper, first grab the side of a core block.
+  Immediately after the core block breaks, perform the inputs for a hyper. This will result in a boosted hyper away from the block.
+  The timing for this move is precise. If you get a boosted down-diagonal dash, you input the hyper too late.
+  If you get a jump that looks like a slow hyper, you input the hyper too early. In this case, the block has not broken yet, so it interferes with the hyper.
+  The hyper must be performed after the block breaks. As a result, the timing window for a successful core hyper is often later than it seems.
+  The exact frame window to successfully perform a core hyper is 4 frames.
+SJ2021_Gym_Grandmaster_CoreHyper2=
+  To perform a core super, follow the previous instructions but with the inputs for a super instead of a hyper.
+  Core supers give more height but less speed than core hypers.
+SJ2021_Gym_Grandmaster_CoreHyper3=
+  Here, perform a core hyper followed by an ultra.
+
+#Grandmaster Cornerkick
+SJ2021_Gym_Grandmaster_Cornerkick0=
+  This section uses techniques from the "Crouch Dash" section of the gym, so it is recommended to complete that section first.
+SJ2021_Gym_Grandmaster_Cornerkick1=
+  Corner kicks allow you to jump off the bottom corners of ceilings as you move past them.
+  To perform a corner kick, approach a corner from below. When you touch it, your hitbox will align with the wall above and allow you to jump off it. 
+  This is possible with spiked walls due to the fact that spikes do not kill you if you are moving in the same direction that they are facing.
+  Here, jump and dash up-diagonal towards the corner, then perform a corner kick off the wall.
+SJ2021_Gym_Grandmaster_Cornerkick2=
+  Here, release your horizontal inputs before jumping in order to perform a neutral corner kick, which gives less horizontal distance than a standard corner kick.
+SJ2021_Gym_Grandmaster_Cornerkick3=
+  This corner kick is dashless. As a result, the jump inputs are much closer together. 
+  To make these inputs more comfortable, it is recommended to bind a second jump button.
+  Use your primary jump button to jump to the corner, then use your second jump button to perform the corner kick.
+SJ2021_Gym_Grandmaster_Cornerkick4=
+  Here, crouch dash just under the pillar, then perform a corner kick off the other side of it.
+  To set this up, grab the wall and climb down before performing the crouch dash. Be careful not to climb down too low.
+  Press jump when you pass under the corner. If done correctly, you will uncrouch and perform a corner kick off the wall.
+
+#Grandmaster Crouch Dash
+SJ2021_Gym_Grandmaster_CrouchDash1=
+  Crystal spinners often have a 4 pixel vertical gap between them. This is equal to the height of Madeline's hitbox while crouching.
+  Here, dash down-right into the ground to crouch and pass through the spinner gap.
+SJ2021_Gym_Grandmaster_CrouchDash2=
+  Crouch dashing, also known as demodashing, is a technique allowing midair dashes to have a crouched hitbox.
+  It is recommended to simply set a bind for crouch dashing (located in Advanced Options in the bind config menu), as it makes them easier to perform.
+  However, it is also possible to perform them manually.
+  To perform a manual crouch dash, first dash down, then quickly redirect the dash to a horizontal direction.
+  This works because dashing downwards puts Madeline in a crouch state, and redirecting the dash does not change this.
+  The dash must be redirected within 4 frames of initiating it.
+  Here, simply perform a crouch dash from a maximum height jump.
+SJ2021_Gym_Grandmaster_CrouchDash3=
+  A common setup for a crouch dash through grid-aligned crystal spinners is shown here.
+  Climb to the top of the wall on the right and perform a maximum height climb jump, then crouch dash through the spinners.
+SJ2021_Gym_Grandmaster_CrouchDash4=
+  Crouch dashes can also be performed while inside green bubbles.
+  Another important aspect of crouch dashes is that you cannot buffer a crouch dash out of another crouch dash.
+  Here, crouch dash out of the bubble, then input another crouch dash after a brief delay.
+  If you die to the spinners, you did not wait long enough before inputting the second crouch dash.
+  Do not crouch dash into the bubble, or you will be unable to crouch dash out of it.
+SJ2021_Gym_Grandmaster_CrouchDash5=
+  Crouch dashing into a bubble (or otherwise entering in a crouched state) moves the bubble up by 2 pixels, slightly altering its trajectory.
+  This trick works with both red and green bubbles, and is sometimes referred to as an Archie.
+  Here, crouch dash into the red bubble. When the red bubble starts moving, you will avoid the spinners due to the altered trajectory.
+  Before colliding with the spikes, perform another crouch dash out of the red bubble.
+  This is possible because, unlike green bubbles, red bubbles force you to uncrouch when you enter them.
+SJ2021_Gym_Grandmaster_CrouchDash6=
+  Crouch dashes can also be performed upwards and up-diagonal.
+SJ2021_Gym_Grandmaster_CrouchDash7=
+  Another important use of crouch dashing is for performing demohypers.
+  Demohypers are similar to supers, except performed using a crouch dash instead of a regular dash.
+  This can be used to perform a hyper from a horizontal midair dash.
+  Make sure not to jump too early off the platforms, or else you will collide with the hazards.
+SJ2021_Gym_Grandmaster_CrouchDash8=
+  Reverse demohypers are also possible using the same principles as other reverse tech.
+
+#Grandmaster Dream Double Jump
+SJ2021_Gym_Grandmaster_DreamDJs1=
+  If you jump on the frame you leave a dream block, you can jump a second time during coyote frames.
+  This has only a small impact on the height gained from the technique, but the horizontal boost from jumping is applied twice.
+  As a result, dream double jumps give more speed and distance than normal dream jumps.
+  To perform a dream double jump, jump once just before leaving the dream block (buffering it), and jump once just after leaving it.
+  To make these inputs more comfortable, it is recommended to bind a second jump button.
+SJ2021_Gym_Grandmaster_DreamDJs2=
+  Dream double jumps can also be used to cancel momentum out of dream blocks.
+  The inputs are the same as a normal dream double jump, just hold the opposite direction of the one you traveled through the dream block in.
+  
+#Grandmaster Feather Tech
+SJ2021_Gym_Grandmaster_FeatherTech0=
+  A note on feathers:
+  Holding a diagonal direction while entering a feather will slightly increase your speed for a brief period of time. This is known as a feather boost.
+  Feather boosts are not required in this section, but they may be useful to keep in mind.
+SJ2021_Gym_Grandmaster_FeatherTech1=
+  Dashing into a shielded feather does not immediately cancel the momentum of the dash, which can result in the feather's starting position becoming displaced.
+  If you dash away from the feather as soon as you touch the shield, you can enter the feather without the displacement.
+  It is recommended to dash before touching the shield so you can buffer the dash away from it.
+SJ2021_Gym_Grandmaster_FeatherTech2=
+  When you collide with a solid while in feather state, your movement angle will be reflected away from the surface.
+  For example, a feather moving directly upwards into a ceiling will bounce off it and be reflected directly down. This is known as a feather bump.
+  After colliding with a surface, make sure to release the previously held directional input.
+SJ2021_Gym_Grandmaster_FeatherTech3=
+  If you move horizontally along the ground while in feather state and input a jump, you will exit feather state and perform a long jump.
+  This is known as a feather super.
+
+#Grandmaster Grounded
+SJ2021_Gym_Grandmaster_Grounded1=
+  After dashing down-diagonal, you gain a 1.2x speed boost upon touching the ground, known as an ultra boost.
+  This boost can be applied even if you touch the ground before the dash ends. This is known as a grounded ultra, or gultra for short.
+  Your speed is normally reset after a grounded dash ends, so to maintain speed after a gultra the dash must be cancelled. 
+  Here, perform an extended hyper and immediately dash down-right into the ground.
+  Bouncing off the puffer will cancel the dash and preserve your speed. Hold jump to get enough height to clear the gap.
+SJ2021_Gym_Grandmaster_Grounded2=
+  Dashes can also be cancelled by picking up holdable objects.
+  Here, perform a hyper followed by a gultra, picking up the jelly to cancel the dash and preserve your speed before jumping over the gap.
+  With proper spacing, you can hold grab to pick up the jelly when you reach it.
+SJ2021_Gym_Grandmaster_Grounded3=
+  Gultras are commonly performed after ultras.
+  Here, first perform an extended hyper followed by an ultra.
+  After landing, dash down-right into the ground to gultra. This allows you to gain the ultra boost twice.
+  You often do not need to jump between landing from the ultra and performing the gultra, as the resulting boost is relatively small.
+  Here, pick up the jelly to cancel the dash before jumping over the gap. With proper spacing, you can hold grab to pick up the jelly.
+  If you gultra on the same frame you land or buffer the gultra, you will sometimes not get the first ultra boost.
+  As a result, it is recommended to try to "slide" on the ground for at least one frame before performing a gultra.
+SJ2021_Gym_Grandmaster_Grounded4=
+  Jumping out of a gultra results in a hyper, and you can gultra again immediately afterwards. 
+  However, because hypers always give the same amount of speed, chained gultras will not build up speed like chained ultras do.
+  Chained gultras can reach speeds up to 1.2x faster than repeated hypers or wavedashes, and are therefore the fastest way to move on flat ground.
+
+#Grandmaster Moonboost
+SJ2021_Gym_Grandmaster_Moonboost1=
+  This section uses techniques from the "Crouch Dash" section of the gym, so it is recommended to complete those sections first.
+SJ2021_Gym_Grandmaster_Moonboost2=
+  A moonboost is a technique that takes advantage of the properties of floaty moon blocks.
+  If you dash high enough into the top corner of the block, you will push the block to the side and simultaneously get corner-corrected to the top.
+  If you jump off the block while it is still moving, its speed will be added to yours, resulting in a boost.
+  The inputs are identical to a midair super, the only difference is the positioning.
+  If you do not get the boost, you most likely dashed too high and did not push the block.
+SJ2021_Gym_Grandmaster_Moonboost3=
+  Moonboosts can also be performed using demohypers instead of supers, giving less height but more speed.
+SJ2021_Gym_Grandmaster_Moonboost4=
+  It is possible to get multiboosts from floaty moon blocks.
+  Here, perform a demohyper moonboost followed by an ultra.
+  If done correctly, the boost will be applied twice, giving enough speed to clear the gap.
+
+#Grandmaster Reform Tech
+SJ2021_Gym_Grandmaster_ReformTech1=
+  A reforming block is any block that can change between a solid and non-solid state more than once. These include move blocks, core (bounce) blocks and cassette blocks. 
+  If you are inside a reforming block's hitbox while it is in a non-solid state and the block attempts to reform, the block and anything attached to it will not become solid until you leave the block's hitbox. 
+  Here, dash into the cassette block's hitbox while it is not active. It will be unable to reactivate until you exit, at which point the spring will immediately activate and launch you.
+SJ2021_Gym_Grandmaster_ReformTech2=
+  Jumping off a reforming block as it reforms while you are just barely inside of its hitbox will result in you getting pushed upwards out of its hitbox. 
+  The block moves upwards by a few pixels and you get a higher jump due to the block's upwards shift. 
+  In the case of cassette blocks, this can also be performed with two overlapping cassette blocks of different colors.
+  This is known as a reform boost, or a cassette boost if performed using a cassette block.
+  When attempting to perform a vertical reform or cassette boost, make sure to avoid buffering the jump input.
+SJ2021_Gym_Grandmaster_ReformTech3= 
+  Reform kicks are performed by being inside of a non-solid reforming block's hitbox, then moving horizontally out of the block while or after it reforms.
+  If you input a jump while exiting the block, you will wallkick off the side of the newly reformed block. 
+  Reform kicks work regardless of whether or not the reforming block is spiked.
+SJ2021_Gym_Grandmaster_ReformTech4=
+  Because the hitbox of reforming blocks becomes solid before the spikes attached to it do, it is possible to land on top of a spiked block as it reforms.
+  This can be used to land on and jump off reforming move or core blocks and get your dash back. 
+  Move blocks will not be activated by this, but core blocks will be.
+
+#Grandmaster Spike Jump
+SJ2021_Gym_Grandmaster_SpikeJump1=
+  Spikes do not kill you if you are moving in the same direction that they are facing. This can be abused to perform certain techniques.
+  If a moving block pushes spikes into you, you can jump off the spiked surface, even if your hitbox overlaps with the hitbox of the spikes.
+  This only works if the block is moving fast enough.
+  Here, dash right and jump off the spiked swap block.
+  If you die to the spikes, you jumped too late. If you perform a super, you jumped too early.
+  Note that you can never regain your dash from jumping off a surface with spikes on it.
+SJ2021_Gym_Grandmaster_SpikeJump2=
+  Here, dash up from the refill and walljump off the spiked swap block. You should get a block boosted wallbounce.
+  If you die to the spikes, you may have started your dash from too far to the left or performed the wallbounce too late.
+  If you do not get the boost, you may have started your dash from too far to the right and performed the wallbounce without making contact with the block.
+SJ2021_Gym_Grandmaster_SpikeJump3=
+  If wind is pushing you down, you can jump off ground with spikes on it. However, this only works if you are at certain vertical positions.
+  Here, take the bubble to the right to set up your position for the spike jump.
+SJ2021_Gym_Grandmaster_SpikeJump4=
+  If wind is pushing you towards a spiked wall, you can jump off it if you hold the same direction as the spikes are facing.
+  Here, hold left and jump repeatedly.
+
+#Grandmaster Superwave
+SJ2021_Gym_Grandmaster_Superwave1=
+  To perform a superwave, first perform a midair super off a platform.
+  After jumping, quickly dash down-diagonal back towards the platform and perform a reverse wavedash.
+  If you do not get your dash back, you started the reverse wavedash too early. 
+  If the crumble block crumbles before you can wavedash off it, you started too late.
+SJ2021_Gym_Grandmaster_Superwave2=
+  Performing a superwave off a cloud results in a vertically boosted wavedash.
+  The amount of time between the super and the wavedash is longer than it is for crumble blocks because the cloud needs to move back up before the wavedash can be performed.
+SJ2021_Gym_Grandmaster_Superwave3=
+  Not inputting jump for the super in a superwave results in a grounded superwave. This can be forced with very specific setups.
+  Here, jump and dash right such that you land on the swap block during the dash, similar to a mid-air super.
+  Do not jump off the swap block yet. Instead, dash down-left to perform a reverse extended hyper.
+  If done successfully, you will not get the upwards boost from the swap block.
+
+#Grandmaster Wallboost
+SJ2021_Gym_Grandmaster_Wallboost1=
+  A wallboost is a climbing technique which involves converting a climbjump into a walljump.
+  To perform a wallboost, grab the wall and perform a climbjump without holding a horizontal direction, then press away from the wall. 
+  This results in what is essentially a walljump started from higher up.
+  The stamina which is consumed by the climbjump is refunded.
+  After climbjumping, you have an 11 frame window to press away from the wall and get a wallboost.
+  The Stamina Meter mod can help indicate when a wallboost is successfully performed.
+  Here, your stamina is set to 30, so you will begin flashing red if the wallboost fails.
+SJ2021_Gym_Grandmaster_Wallboost2=
+  Wallboosts can also be used to obtain more stamina than would normally be possible.
+  Performing a wallboost with full stamina will cause your stamina to exceed the normal limit. This is known as overclocking.
+  Overclocks can be performed by starting the wallboost from the ground or by collecting a refill after the climbjump and before the stamina refund.
+  Here, you only have 30 stamina, but you can overclock to gain more.
+SJ2021_Gym_Grandmaster_Wallboost3=
+  Wallboosts can be used in place of neutral jumps to climb up walls without using stamina. Neutrals have been disabled for this section.
+  Try to wallboost as early as possible to gain maximum height. It is recommended to not hold up.
+SJ2021_Gym_Grandmaster_Wallboost4=
+  Wallboosts can also be used to cancel horizontal block boosts.
+  Your stamina has been set to the default maximum of 110 for this section and the following one.
+SJ2021_Gym_Grandmaster_Wallboost5=
+  Combine the different applications of wallboosting to complete this section. You have full stamina.
+
+#Grandmaster Wallbounce Leniency
+SJ2021_Gym_Grandmaster_WBLeniency1=
+  After a dash ends, there is a period of 5 frames where wallbounces can still be performed.
+  If you dash up towards a spiked wall, then start moving away from the spikes after the dash ends, you can wallbounce off it during this period.
+  This requires a precise vertical position.
+  This works because spikes do not kill you if you are moving in the same direction that they are facing.
+  Here, dash up from the ground without jumping to perform the spiked wallbounce.
+SJ2021_Gym_Grandmaster_WBLeniency2=
+  It is possible to wallbounce with 4 pixels between you and the wall if the wall does not have spikes on it.
+  As a result, if you are sufficiently far away from a wall with crystal spinners on it, you can wallbounce off the bottom off the wall without hitting the spinners.
+  Your horizontal position must be precise, but your vertical position when starting the dash is not important.
+  Here, use the sideways jumpthrough on the ground to line yourself up for the spinner wallbounce.
+SJ2021_Gym_Grandmaster_WBLeniency3=
+  You can move closer to a wall immediately after the dash ends and wallbounce during dash attack, even if you are too far away at the start of your dash.
+SJ2021_Gym_Grandmaster_WBLeniency4=
+  Wallbounces give a constant vertical speed for 18 frames, while dashes only last for 15 frames.
+  As a result, if a wallbounce is interrupted by a dash within the first 2 frames of the wallbounce, the wallbounce will outlast the dash.
+  If performed correctly, you will gain a small amount of extra height after the dash ends. This technique is known as a wallbounce cancel.
+  It is not necessary to hold jump after performing the wallbounce.
+SJ2021_Gym_Grandmaster_WBLeniency5=
+  A common double block boost setup involves performing an ultra out of a block boosted wallbounce.
+  If you input the down-diagonal dash for this move almost instantly after pressing jump, it will result in a wallbounce cancel that preserves your speed.
+  Note that in some cases, this type of wallbounce cancel is not intended by the creator of a map and may need to be avoided in order to succeed.
+
+#Library Block Boost
+SJ2021_Library_Blockboost1=
+  When you jump off a moving block, its speed is added to yours, giving a block boost.
+  However, block boosts are capped at 130 for upwards block boosts, and 250 for horizontal block boosts. In addition, you cannot gain a downwards block boost.
+  A ground jump starts with 105 upwards speed. Jumping off a block moving upwards at 240 speed results in a jump with 105 + 130 = 235 upwards speed.
+  A walljump starts with 130 horizontal speed, so jumping off a block moving horizontally at 300 speed results in 130 + 250 = 380 horizontal speed.
+  It is important to make contact with moving blocks before jumping in order to receive block boosts.
+  If you walljump without making full contact with the wall, you will not get the block boost. This sometimes occurs when buffering the walljump.
+  Refer to the "Collision Leniency" and "Input Buffering" sections of the Library for more information.
+SJ2021_Library_Blockboost2=
+  A super has 260 horizontal and 105 upwards speed, while a wallbounce has 170 horizontal and 160 upwards speed. 
+  Supering and wallbouncing off moving blocks simply adds the block boost, just as with normal jumps.
+  A maximally boosted super will have a speed of (260, 105) + (250, 130) = (510, 235).
+  A maximally boosted wallbounce will have a speed of (170, 160) + (250, 130) = (420, 290).
+  Just as with walljumps, it is possible to wallbounce off a moving block without making contact with it, in which case you will not get the block boost.
+  To avoid this, do not buffer the jump input of the wallbounce to ensure you make contact with the block first.
+  A hyper has 1.25 times the horizontal speed and 0.5 times the upwards speed of a super (325, 52.5).
+  When you hyper off moving blocks, these multipliers are added to the block boosts.
+  As a result, the upwards block boost is smaller and the horizontal block boost is larger.
+  A maximally boosted hyper will have a speed of (325, 52.5) + (250 * 1.25, 130 * 0.5) = (637.5, 117.5).
+  
+
+#Library Bouncing
+SJ2021_Library_Bouncing1=
+  Some objects bounce you upwards if you land on them.
+  These include puffers, ice balls, seekers, snowballs and Mr\. Oshiro.
+  These objects bounce you upwards at an initial speed of 140 pixels per second, which immediately begins decreasing due to gravity.
+  However, if you hold jump while bouncing, this vertical speed will not begin decreasing until 12 frames (0.2 seconds) after the bounce, so you will bounce higher.
+  Note that you do not have to start pressing jump when contacting the objects, you can press jump before landing on them as long as you continue to hold jump.
+SJ2021_Library_Bouncing2=
+  If you are dashing and bounce before the dash ends, the bounce will cancel the dash and preserve your speed. You can hold jump to bounce higher.
+  For puffers, this is commonly known as a "puffer super," although it is not a true super since it cannot be reversed, and does not affect your horizontal speed.
+  Here, hold jump and dash horizontally into the tops of the puffers.
+SJ2021_Library_Bouncing3=
+  Your horizontal speed is preserved when bouncing, even if you are not dashing. However, you do not get jump boosts from bouncing.
+  Here, dash through the modified dream block and start holding jump while you are inside the block.
+  You will exit the block with high speed, which will be preserved upon bouncing on the two puffers.
+
+#Library Collision Leniency
+SJ2021_Library_CollisionLeniency1= 
+  It is possible to walljump with 2 pixels between you and the wall, giving more leniency.
+  You can also climbjump, but not grab a wall from this distance. Thus climbjumping from this distance will not activate blocks such as move blocks.
+  You can grab walls with 1 pixel between you and the wall.
+  Use the sideways jumpthrough on the floor to line yourself up such that you are 2 pixels away from the wall and the move block.
+  If you jump straight up, you can climbjump and walljump off the wall and move block despite not being in direct contact with it.
+SJ2021_Library_CollisionLeniency2= 
+  It is possible to wallbounce with 4 pixels between you and the wall. 
+  Combined with corner-correction, this gives you a lot of leniency for your horizontal position when starting the wallbounce.
+  However, if the wall is covered with spikes, this leniency does not apply.
+  Use the sideways jumpthrough on the floor to line yourself up such that you are 4 pixels away from the block. 
+  The red region will kill you if you touch it.
+  If you dash up and jump, you can wallbounce off the wall despite not being in direct contact with it.
+SJ2021_Library_CollisionLeniency3= 
+  If you dash and you are 2 pixels or less above the ground, your vertical position will be "snapped" down to the ground.
+  This gives more leniency for midair supers.
+  In this demonstration, the wooden jumpthrough above is 2 pixels higher than the crumble block.
+  If you dash off the jumpthrough towards the right, you will be pulled down onto the crumble block and be able to perform a super off it.
+
+#Library Corner Correction
+SJ2021_Library_CornerCorrection1=
+  Corner correction is a leniency mechanic that allows you to continue moving past solids when colliding with corners.
+  If you dash or travel in a bubble into the corner of a solid, the game checks your position.
+  If the game detects that shifting your position by a certain distance would avoid the collision, your position will be "corrected" by that distance.
+  You can then continue moving without colliding with the solid.
+SJ2021_Library_CornerCorrection2=
+  For dashing down or down-diagonal into the ground, the maximum distance for horizontal corner correction is 4 pixels.
+  Your dash must not start on the ground for corner correction to occur. Jumping and dashing down is a common way to purposely corner correct.
+  Here, jump and dash down into the ground. If you are within 4 pixels to the left of the one-tile wide gap, you should be corner corrected into the gap.
+SJ2021_Library_CornerCorrection3=
+  Colliding with walls allows you to be corner corrected either up or down by a maximum of 4 pixels, if you are dashing.
+  However, if there is a spike on the surface you would be corner corrected into, you will not be corner corrected.
+  Jumpthroughs increase the height you can be corner corrected, which can be used to make mid-air supers more lenient.
+  Here, jump onto the left jumpthroughs and dash towards the right. You should be corner corrected upwards.
+SJ2021_Library_CornerCorrection4=
+  Colliding with ceilings allows you to be corner corrected to the side, normally by up to 4 pixels.
+  Unlike walls or floors, you do not have to dash to be corner corrected by ceilings. Here, you can jump up and be corner corrected.
+  If you are dashing directly upwards, you can be corner corrected by up to 5 pixels. This makes wallbounces more lenient.
+  Some sideways jumpthroughs can corner correct the player to the side, making wallbounces even more lenient.
+  Be aware that this is a configurable feature of jumpthroughs—some mappers may choose to leave it disabled, in which case the corner correction will not apply.
+SJ2021_Library_CornerCorrection5=
+  You cannot be corner corrected in the opposite direction from your initial direction.
+  For example, if you dash down-left into the ground, you cannot be corrected to the right.
+  Hence, while up-diagonal dashes into the bottom corners of ceilings can corner correct you, this will only occur if you are moving away from the wall.
+  Here, jump straight up and dash up-right to get corner corrected into the spring.
+SJ2021_Library_CornerCorrection6=
+  You can be corner corrected in any direction when travelling in a red bubble, just as with dashing.
+SJ2021_Library_CornerCorrection7=
+  When moving downwards, you collide with solids before colliding with spikes (see also: Hitboxes).
+  Hence dashing downwards allows you to corner correct even if there are spikes on the floor.
+  Here, jump and dash down into the spikes. 
+  If you are within 4 pixels to the left or right of the one-tile wide gap, you should be corner corrected into the gap without dying to the spikes.
+  Ensure that your dash does not end before hitting the ground.
+
+#Library Coyote Time
+SJ2021_Library_Coyote1=
+  The “coyote” state is a leniency mechanic designed to allow you to jump slightly late when walking off platforms.
+  You go into the coyote state for 5 frames after walking off a platform. You can jump from midair during these frames.
+  This allows you to jump further distances. You can jump across this gap without dashing by exploiting coyote time.
+  The coyote state is removed after jumping, so it is only possible to jump once.
+SJ2021_Library_Coyote2=
+  You can also perform hypers and supers during coyote frames. It is possible to dash from the platform, and then jump from midair.
+  Coyote frames do not recharge dashes, so hypers and supers will not extend if the 6 frame recharge time is reached after leaving the platform.
+  Freeze frames do not count towards reducing coyote frames.
+SJ2021_Library_Coyote3=
+  Coyote frames are also given when standing on disappearing crumble blocks, exiting dream blocks, and holding on to breaking core blocks.
+  This is what makes dream hypers and core hypers possible.
+SJ2021_Library_Coyote4= 
+  Jumping during coyote frames allows you to perform instant hypers and supers out of bubbles.
+  Here, walk off the ground into the bubble and press dash and jump at the same time to perform a hyper or super.
+  You must do this very soon after leaving the ground, before the coyote frames run out.
+  You can also dash into the bubble.
+
+#Library Crouching
+SJ2021_Library_Crouching1=
+  If you hold down while on the ground, you will enter a crouched state. This allows you to fit through smaller gaps.
+  Your hitbox is reduced from 11 pixels tall to 6 pixels tall, and your hurtbox is reduced from 9 pixels tall to 4 pixels tall.
+  You cannot walk while crouching, but you can dash down-diagonal to move while maintaining the crouched state.
+  Here, dash down-right into the ground to go under the spinners.
+SJ2021_Library_Crouching2=
+  If you crouch and touch a spring, you will be launched into the air while crouching.
+  However, you will immediately uncrouch whenever you start moving down.
+  There are exceptions if you are in coyote time (which has its own section in the Library), or if you are too close to a ceiling.
+  In these cases, you will not uncrouch even if you are moving down.
+SJ2021_Library_Crouching3=
+  You cannot grab walls while crouching, but you can perform climbjumps (see also: Crouch Jumps in Advanced).
+  Walljumping while crouched causes you to uncrouch.
+SJ2021_Library_Crouching4=
+  If you are crouching and not dashing, you cannot grab holdable objects.
+  This is important when grabbing jellies after performing ultras; you must not perform a crouch jump from the ultra.
+SJ2021_Library_Crouching5=
+  If you crouch on the ground, you will not be pushed by horizontal wind.
+  This immunity lasts for a few frames after uncrouching.
+  Hence you can move against wind without dashing, by holding forward and quickly alternating between crouching and uncrouching.
+SJ2021_Library_Crouching6=
+  Cancelling a horizontal or down-diagonal dash with a ground jump results in either a super or a hyper.
+  However, the direction of your dash is not checked to determine if it is a super or a hyper.
+  If you are crouched, you will perform a hyper. If you are uncrouched, you will perform a super.
+  Hypers occur because the down-diagonal dash causes you to crouch on the ground before you jump.
+  Here, dashing horizontally into the 1-tile high gap causes you to crouch. You can then jump while inside the gap.
+  As a result, performing the inputs for a super will give you a hyper instead.
+
+#Library Crumble Blocks
+SJ2021_Library_Crumble1=
+  Crumble blocks disappear at different rates depending on how they are activated.
+  Standing on top of a crumble block makes it crumble after 36 frames (0.6 seconds).
+  Grabbing the side of a crumble block makes it crumble after 60 frames (1 second).
+  Landing on top of a crumble block and immediately jumping off it makes it crumble after 12 frames (0.2 seconds).
+SJ2021_Library_Crumble2=
+  Crumble blocks will not respawn if their space is blocked.
+  They can be blocked by the player, holdable objects, moving blocks and falling blocks.
+  They will respawn once the obstruction is removed.
+SJ2021_Library_Crumble3=
+  You can jump and wavedash off a crumble block while it is crumbling, before it disappears.
+  Since the block crumbles much slower if you grab the side, it is best to activate it by grabbing the side instead of by landing directly on top of it.
+
+#Library Dash Attack
+SJ2021_Library_DashAttack1=
+  Objects like dream blocks, Kevin blocks, temple switches and breakable blocks are interacted with by dashing into them.
+  Your dash lasts for 15 frames, but there are 6 frames after your dash ends where you can still interact with these objects.
+  This interval is known as your dash attack, and makes spacing more lenient.
+  Here, dash up at the entities from the ground. You will enter them during dash attack.
+SJ2021_Library_DashAttack2=
+  If you collide with a dash-activated block during your dash attack period, you can grab or jump off the block without activating it.
+  Here, take the bubbles towards the right. The bubbles are spaced so that you will be in the dash attack period when colliding with the Kevin and dream block.
+  If you hold grab or buffer a walljump before colliding with the blocks, you should not go through the dream block or activate the Kevin.
+
+#Library Dash Spacing
+SJ2021_Library_DashSpacing1=
+  A dash lasts 15 frames in total, including freeze frames. This period is known as a dash cooldown, and you cannot begin a dash until it has ended.
+  The bottom row of dash refills is spaced such that you can dash to the right immediately after each dash ends.
+  However, the top row of dash refills is spaced further apart.
+  This is because after a horizontal dash ends, your speed is set to 160 (see also: Dash Speed).
+  Hence you will move further in the direction of your dash even after it technically ends.
+  As a result, you can travel further horizontally by waiting before performing the next dash.
+SJ2021_Library_DashSpacing2=
+  Upwards and up-diagonal dashes also give a small amount of upwards speed after the dash ends.
+  However, this is less than the speed remaining after a horizontal dash. For vertical dashes, this is 120.
+  Regardless, this is enough to make a difference in height if you space your dashes far enough apart.
+SJ2021_Library_DashSpacing3=
+  Dashes can be "cancelled" during the dash if you enter another state.
+  For example, if you perform a wavedash, jump off a wall, dash through a dream block, etc.
+  However, the dash cooldown still applies even if your dash is cancelled; you usually cannot begin the next dash until 15 frames after the previous one started.
+  In these examples, if you move directly next to the dream block and spring and dash into them, your dash will be cancelled.
+  The dash cooldown means you cannot dash immediately after exiting the dream block or bouncing off the spring.
+
+#Library Dash Speed Preservation
+SJ2021_Library_DashSpeed=
+  The speed of a normal dash is 240, while the horizontal speed of a normal diagonal dash is approximately 169.71.
+  If you start a dash while moving faster than the horizontal speed of the dash, the dash will inherit the faster speed.
+  For up-diagonal and horizontal dashes, this speed is reset when the dash ends.
+  However, when a down-diagonal dash ends, your speed is retained. 
+  This is important for ultras, which are explained in the Expert Gym.
+  Here, the first dream block gives a burst of speed.
+  Dash immediately after exiting the dream block, and observe what happens with up-diagonal, horizontal and down-diagonal dashes.
+SJ2021_Library_DashSpeed2=
+  After a dash ends, your horizontal speed will be set to 160 before decelerating. This can be used to perform a move known as a failed hyper.
+  For this section, dash down-right into the ground like you would for an extended hyper or wavedash, but input your jump later than usual so it occurs after your dash has ended.
+  This will result in a slightly longer jump without giving the speed or lower height of a hyper.
+SJ2021_Library_DashSpeed3=
+  Failed wavedashes can be performed in the same way as failed hypers.
+  Here, jump and dash down-right onto the falling block.
+  Jump again after your dash has ended. This should give the same arc as a failed hyper.
+
+#Library Falling Blocks
+SJ2021_Library_Falling1=
+  Standing on a falling block causes it to fall after 36 frames (0.6 seconds).
+  Grabbing them also usually causes them to fall, but this can be disabled per block.
+  They also fall if you hit a spring attached to them, or if they get hit by a Kevin block.
+  Falling blocks fall at 160 speed, which is the same as the player.
+  If you lose contact with a falling block after activating it, either from the top or from the side, the block will start falling immediately.
+SJ2021_Library_Falling2=
+  Some breakable blocks cannot be destroyed by dashing into them. However, they can all be destroyed by falling blocks.
+SJ2021_Library_Falling3=
+  It is possible to land, jump off and wavedash on a falling block before it begins to fall.
+
+#Library Fall Speed
+SJ2021_Library_FallSpeed1=
+  {anchor bottom}
+  The standard maximum falling speed is 160. Standard gravity is 15 speed per frame. 
+  Hence, when you start falling, you will accelerate at standard gravity until you reach the maximum falling speed.
+  After that, your vertical speed will remain constant.
+SJ2021_Library_FallSpeed2=
+  {anchor bottom}
+  The normal falling speed with a jelly is 40.
+  If you hold up while falling with a jelly, you will fall more slowly, at 24 speed.
+  Similarly, holding down while falling with a jelly makes you fall more quickly, at 120 speed.
+SJ2021_Library_FallSpeed3=
+  {anchor bottom}
+  If you are already falling at 160 downwards speed and then press the down button, you will fall even faster. This is known as fastfalling.
+  The maximum fastfall speed is 240.
+  Releasing the down button will cause your falling speed to return to normal.
+SJ2021_Library_FallSpeed4=
+  {anchor bottom}
+  While falling near the side of a solid wall, moving towards the wall and continuing to hold that direction will cause you to slide down the wall.
+  If you start sliding with low vertical speed, your acceleration will be 1.9 speed per frame, which is less than standard gravity.
+  However, you will reach the same maximum falling speed as you would if you were in midair.
+  If you are already falling with a high speed and then start sliding against the wall, your speed will decrease briefly before accelerating back to the maximum falling speed.
+  This acceleration is also 1.9 speed per frame.
+  Sliding against a wall does not affect your vertical speed if you are moving upwards.
+
+#Library Frames
+SJ2021_Library_Frames1=
+  Many of the explanations in the gyms and library reference frames.
+  A frame is the smallest unit of time calculated by the game, equal to 1/60 of a second.
+  In this example, the times between when the red bubbles start moving, and when the refills are collected, correspond to the number of frames above.
+SJ2021_Library_Frames2=
+  All movement in the game is tied to frames.
+  From one frame to the next, your position is moved by a certain amount of pixels, and you are not considered to have been present in between those positions.
+  As a result, it is possible to clip through objects and hazards without interacting with them at sufficiently high speeds. 
+  Note that this does not apply to solid tiles as their collision checks are more robust.
+  This can also make certain moves impossible at high speeds, as there are no frames where you are in the correct position to perform the move. 
+  This is known as "getting 0-framed".
+  Here, taking the bubble to the right allows you to clip through the spikes. 
+  Once you hit the Kevin block, you instantly rebound to the left, and thus do not die to the spikes.
+
+#Library Freeze Frames
+SJ2021_Library_FreezeFrames= 
+  Some interactions create freeze frames, which stop the game and in-game timer for a fixed number of frames.
+  Freeze frames make these interactions feel more impactful.
+  Starting a dash, collecting a refill and exiting a dream block all give 3 freeze frames.
+  Bouncing off a bumper, exploding a puffer, and getting boosted by a respawning seeker all give 6 freeze frames.
+  Bouncing on a seeker gives 9 freeze frames.
+  Note that starting a dash in a dash crystal only gives freeze frames from the dash and not from collecting the crystal.
+  You can turn freeze frames on and off to the right to see how it affects various scenarios.
+  You can also toggle them using the Extended Variants menu. Remember to turn them back on if you return to the lobby or the map!
+
+#Library Friction
+SJ2021_Library_Friction1=
+  Friction reduces your horizontal speed at a constant deceleration. To demonstrate this, dash through the modified dream block without jumping out of it.
+  If you hold right, you will decelerate slowly until you reach normal walking speed, at 4.3 speed per frame.
+  If you do not hold right, air friction will be higher and you will decelerate more quickly until you reach 0 speed, at 10.8 speed per frame.
+SJ2021_Library_Friction2=
+  Friction is higher on the ground than in the air. To demonstrate this, dash through the modified dream block and slide on the ground.
+  Ground friction is the smallest if you hold right, but it is still slightly larger than air friction when holding right, at 6.7 speed per frame.
+  Ground deceleration is slightly larger if you hold down, regardless of whether you hold right or not, at 8.3 speed per frame.
+  Ground deceleration is largest if you do not hold right, or hold left while sliding, at 16.7 speed per frame.
+
+#Library Hitbox
+SJ2021_Library_Hitbox1= Hitboxes are shapes, often rectangles, used to calculate the collision of game objects.
+  Madeline has two hitboxes. The taller one in red collides with floors, ceilings and walls.
+  The shorter one in green collides with hazards and other objects like bubbles, and is also known as a hurtbox.
+  Both hitboxes are smaller than the sprite so as to more easily avoid dying to hazards and crashing into ceilings.
+  Since the hurtbox is shorter, the bottom of Madeline can collide with solids without colliding with hazards. 
+  This allows for techniques such as cornerjumps and spiked cornerboosts.
+SJ2021_Library_Hitbox2= 
+  When you crouch, both hitboxes decrease in height. You can then fit through one-tile high gaps, and go through smaller gaps between hazards.
+SJ2021_Library_Hitbox3= 
+  Most hazards have hitboxes smaller than their sprites so the player can more easily avoid them. 
+  As a result, the player can sometimes appear to be inside hazards without dying.
+SJ2021_Library_Hitbox4= 
+  The tips of spikes are not hazardous. Furthermore, spikes do not kill you if you are moving in the same direction as the points.
+SJ2021_Library_Hitbox5= 
+  Crystal spinners are exactly two tiles wide, but are less than two tiles tall.
+  Therefore, on-grid spinner columns actually have a small gap which is the same height as Madeline's crouching hurtbox.
+  When spinners are close but not touching, the game will fill in the space between them with pixels of the same colour as the spinners. 
+  These pixels are commonly known as "spinner juice", and they are not hazardous.
+SJ2021_Library_Hitbox6= 
+  The hitbox of one tile of electricity is one pixel smaller on each side than the rectangular sprite.
+  Walls and floors that overlap with electricity are safe to stand on.
+SJ2021_Library_Hitbox7= 
+  Many game objects have hitboxes larger than their sprites so the player can more easily reach them.
+SJ2021_Library_Hitbox8= 
+  Holdable objects have two hitboxes. The larger hitbox is the area in which the player can grab the object.
+  The smaller hitbox collides with solids, and seeker barriers in the case of jellies.
+  However, when you grab the object, the smaller hitbox ignores collisions with solids, although they will still collide with seeker/Theo barriers.
+SJ2021_Library_Hitbox9= 
+  The large hitbox of a spring allows the player to hit it while moving past the corner of a wall.
+  Here, taking the bubble up-right causes you to hit the spring.
+
+#Library Input Buffer
+SJ2021_Library_InputBuffer1= 
+  Input buffering is a leniency mechanic designed to make the game feel like it doesn’t unfairly eat inputs.
+  It is possible to press buttons slightly early and still receive the desired behavior from the input.
+  For example, it is possible to press and hold jump slightly before touching the ground, and the player will still jump upon landing.
+  The standard buffer window is 5 frames for all moves. Freeze frames do consume buffer frames.
+  That means that if the jump button is pressed no more than 5 frames before touching the ground, you will still jump.
+  Buffering is often used to make extremely precise moves, even frame-perfect moves, more lenient.
+  In this example, you must buffer a jump off the surface of the water before sinking into the spikes.
+SJ2021_Library_InputBuffer2=
+  Dashes can also be buffered before touching the ground or a refill, if you do not have a dash.
+  In this example, consume a dash before falling onto the refill. 
+  Buffering a rightwards dash when collecting the refill allows you to dash through the tight spinner gap.
+SJ2021_Library_InputBuffer3=
+  Buffered climbjumps can be used to climb objects without activating them.
+  Only the jump needs to be buffered; the grab button can be held the entire time.
+  In this example, climb onto the top of the core block without activating it, using buffered climbjumps.
+SJ2021_Library_InputBuffer4=
+  Since springs refill your dash, you can buffer a dash after hitting a spring, which is known as a buffered spring cancel.
+  In this example, dash up into the spring and buffer a right dash.
+SJ2021_Library_InputBuffer5=
+  In this example, take the bubble to the right and buffer a vertical dash. This should cause you to dash through the pixel perfect gap consistently.
+  Note that this setup does not work at significantly different game speeds, as the length of a dash differs slightly.
+SJ2021_Library_InputBuffer6=
+  If you are moving horizontally through a dream block, buffering a dash out of it causes you to dash 4 pixels away from it.
+  Buffer an upwards dash when exiting the dream block. This should cause you to fit through the pixel perfect gap.
+
+#Library Jump Boost
+SJ2021_Library_JumpBoost1= 
+  Jumping while holding left or right adds 40 speed in that direction.
+  This applies to all jumps, including dream jumps, climbjumps over corners, and midair jumps using coyote or jump refills.
+  Cornerboosts (Expert) and dream double jumps (Grandmaster) add speed because of this mechanic. 
+  Here, perform a dream jump into the jump refill. You will gain 6 extra jumps.
+  Press the jump button as fast as possible to gain speed and get to the next section before the switch gate blocks you.
+SJ2021_Library_JumpBoost2=
+  Jump boosts can be used to speed up or slow down, as it depends only on the direction held, not the direction the player is currently traveling.
+  Here, dash through the modified dream block and cancel your speed by jumping and holding left.
+SJ2021_Library_JumpBoost3=
+  {anchor bottom}
+  Tapping the jump button allows you to approximately maintain speed over large distances.
+  Smaller jumps let you hit the ground sooner and jump more often, giving more frequent jump boosts.
+  Jumping is also important to minimize contact with the ground, as ground friction is larger than air friction.
+  This is explained in more detail in the "Friction" section of the Library.
+  Here, perform a short dream jump, then two short bunnyhops to maintain speed and perform a final large jump over a gap.
+
+#Library Jump Control
+SJ2021_Library_JumpControl1=
+  Jumping off the ground gives you a constant upwards speed for 12 frames (0.2 seconds) before you start accelerating downwards.
+  However, if you release the jump button during this period, you will start accelerating downwards immediately.
+  This gives you a shorter jump than a normal full-height jump.
+SJ2021_Library_JumpControl2=
+  Other types of jumps can be shortened by releasing the jump button as well.
+  This is most commonly seen with controlled hypers. Perform an extended hyper or wavedash and release the jump button soon afterwards.
+SJ2021_Library_JumpControl3=
+  The standard acceleration due to gravity is 15 speed per frame.
+  If the player’s speed is between -40 and +40, holding jump cuts this value in half to 7.5 speed per frame.
+  This makes jumps feel “floatier” at the top and can be abused to do a low long-distance jump called a “float jump”.
+  Here, quickly release and re-press the jump button after jumping.
+
+#Library Momentum Carry
+SJ2021_Library_MomentumCarry=
+  A block can provide the player's jumps and dashes with a block boost up to 9 frames after the player has stopped contacting it, or after it has stopped moving.
+  This results in some odd tricks where you can get momentum in unexpected places.
+  For example, the first zipper gives a vertical block boost. When it stops, you can immediately dash up-right towards the wall.
+  If you jump off the wall immediately, you will get the block boost from the zipper, since you jumped within 9 frames of leaving it.
+  This room showcases various momentum tricks, some of which are commonly used in maps.
+
+#Library Screen Transitions
+SJ2021_Library_ScreenTransitions1=
+  {anchor bottom}
+  When moving from one room to another, a screen transition takes place. During a screen transition, your movement cannot be controlled.
+  Your momentum is preserved during screen transitions, and screen transitions refill your dash.
+  Upwards screen transitions also push you upwards if you do not have sufficient upwards velocity.
+  To complete this section, utilize the screen transitions to refill your dash midair.
+SJ2021_Library_ScreenTransitions2=
+  {anchor bottom}
+  The dash state is also preserved through screen transitions, though only for a brief period of time.
+  This can be abused to perform a transition wallbounce, which involves dashing upwards through an upwards screen transition and then jumping while next to a wall. 
+  As a result, you will perform a wall bounce in the destination room while retaining your dash.
+  Transition supers and transition hypers can be performed in a similar fashion through horizontal screen transitions.
+  Make sure to jump after the transition ends in the next room.
+
+#Library Speed
+SJ2021_Library_Speed=
+  Many of the explanations in the gyms and library reference speed.
+  Speed is measured in pixels per second; for example, 240 pixels per second is the speed of a dash.
+  Various modes of movement and their corresponding speeds are shown to the right.
+  The number above shows your horizontal speed.
+
+#Library Stamina Management
+SJ2021_Library_StaminaManagement1=
+  Your initial climbing stamina is 110. It is replenished by touching the ground, obtaining a refill or interacting with certain objects.
+  Stamina is depleted by grabbing a wall, climbing up, and climbjumping. 
+  Walljumping, neutral jumping, and sliding down a wall (with or without holding grab) do not deplete stamina.
+  When your stamina reaches 20, you begin to flash red, entering a "tired" state. 
+  In this state, if you were already holding a wall, you can continue holding it. You can climbjump and activate certain blocks.
+  You cannot begin holding a wall, and cannot pick up holdable objects.
+  When your stamina reaches 0, you are "exhausted". You can no longer grab or climbjump, but can activate blocks.
+  The Stamina Meter mod is useful for visualizing how much stamina you have.
+SJ2021_Library_StaminaManagement2=
+  Stamina is consumed at a rate of 10 per second while holding a wall.
+  If you grab a wall without moving, it takes 9 seconds to become tired, and 11 seconds to become exhausted.
+SJ2021_Library_StaminaManagement3=
+  Your climbing speed is 45 pixels per second.
+  It takes 1.98 seconds of climbing to become tired, and 2.42 seconds to become exhausted.
+  Hence the maximum height you can climb up is 108.9 pixels, or 13.6 tiles.
+SJ2021_Library_StaminaManagement4=
+  A climbjump uses 27.5 stamina, which is exactly 1/4 the max stamina. Therefore it takes 4 climbjumps to become exhausted.
+  The maximum height you can travel with 4 climbjumps is 106.9 pixels, or 13.4 tiles. This is slightly less than the maximum height you can climb upwards.
+  However, you can climbjump as long as your stamina isn't completely empty, so you can go higher by climbing a short distance in addition to 4 climbjumps.
+SJ2021_Library_StaminaManagement5=
+  When grabbing a wall, downward wind pushes you down at 12 pixels per second, reducing upwards climb speed to 33 pixels per second.
+SJ2021_Library_StaminaManagement6=
+  Upward wind does not affect the rate at which you climb, nor does it push you up while grabbing a wall.
+  However, it makes climbjumps more effective; you can make it to the top of this wall with only 3 climbjumps.
+
+#Library Ultra Mechanics
+SJ2021_Library_UltraMechanics1= 
+  There are a few different game mechanics which make ultras possible.
+  The first mechanic is dash speed preservation, which has its own section in the Library.
+  At the end of a dash, your speed is usually reset to approximately walking speed.
+  However, down-diagonal dashes in the air do not reset speed.
+  If the ultra is performed without enough height and you touch the ground before the dash ends, the ultra will fail and your horizontal speed will be set to 160.
+  The minimum height is about 3.5 tiles.
+  This type of dash alone is sometimes referred to as an “ultra.” 
+  Here, dash through the modified dream block and immediately dash down-right after exiting it.
+SJ2021_Library_UltraMechanics2=
+  However, there is another mechanic which allows ultras to gain speed.
+  Doing a down-diagonal dash and touching the ground causes your speed to be multiplied by 1.2.
+  This means that, unlike hypers which give constant speed, chained ultras can be used to gain unlimited speed.
+  Jumping is not necessary, but grants slightly more speed (see the "Jump Boosts" section of the library for more information), and less speed is lost in the air than on the ground.
+  To maximize speed, it is recommended to not hold down while on the ground as this will increase friction, albeit by a small amount.
+SJ2021_Library_UltraMechanics3=
+  There is a technicality to how the ultra boost is applied.
+  It is possible to jump from 1 pixel above the ground, but the ultra boost is not applied until you are on the ground.
+  Therefore, depending on your vertical position, it is possible to be 1 pixel above the ground for a frame.
+  If this occurs, then jumping on this frame, including buffered jumps, will cause the ultra boost to not activate.
+  For this reason it is recommended to “slide” for at least one frame in order to ensure that the ultra boost is always applied.
+  Here, the dream block sets your vertical position such that buffering the jump will not give you the ultra boost.
+
+#Library Water
+SJ2021_Library_Water1=
+  It is possible to buffer jumps off the surface of water with hazards in it.
+  However, this does not refill your dash.
+SJ2021_Library_Water2=
+  Dashing inside water does not consume a dash. Thus if you collect a double refill, you can dash in water and maintain 2 dashes.
+  Furthermore, even if you dash out of the water, your dash will not be consumed.
+SJ2021_Library_Water3=
+  You can perform wallbounces, supers and hypers while inside water as long as there is ground below you for supers and a wall next to you for wallbounces.
+SJ2021_Library_Water4=
+  You can jump on every frame while on top of water, which gains speed (see also: Jump Boosts).
+  Perform a hyper and press the jump button as many times as possible.
+  It is recommended, although not necessary, to bind two keys to jump and alternate between them for more rapid inputs.
+  
+# === CREDITS
+SJ2021_Credits_Heading_Captains= Captains
+SJ2021_Credits_Heading_Teams= Teams
+SJ2021_Credits_Category_Hosts= Hosts
+SJ2021_Credits_Category_Prologue= Prologue
+SJ2021_Credits_Category_Beginner= Beginner
+SJ2021_Credits_Category_Intermediate= Intermediate
+SJ2021_Credits_Category_Advanced= Advanced
+SJ2021_Credits_Category_Expert= Expert
+SJ2021_Credits_Category_Grandmaster= Grandmaster
+SJ2021_Credits_Category_Gameplay= Gameplay
+SJ2021_Credits_Category_Mapping= Mapping
+SJ2021_Credits_Category_Lobby= Lobby
+SJ2021_Credits_Category_Gym= Gym
+SJ2021_Credits_Category_Coding= Coding
+SJ2021_Credits_Category_Art= Art
+SJ2021_Credits_Category_Music= Music
+SJ2021_Credits_Category_Decoration= Decoration
+SJ2021_Credits_Category_Playtesting= Playtesting
+SJ2021_Credits_Category_Pack_Management= Pack Management
+SJ2021_Credits_Category_Media= Media
+SJ2021_Credits_Category_Localization= Localization
+SJ2021_Credits_Category_Localization_Brazilian_Portuguese= Brazilian Portuguese
+SJ2021_Credits_Category_Localization_Chinese= Chinese
+SJ2021_Credits_Category_Localization_French= French
+SJ2021_Credits_Category_Localization_Japanese= Japanese
+SJ2021_Credits_Category_Localization_Korean= Korean
+SJ2021_Credits_Category_Localization_Russian= Russian
+SJ2021_Credits_Category_Accessibility= Accessibility
+SJ2021_Credits_Category_Overworld= Overworld
+SJ2021_Credits_Category_UX_Design= UX Design
+SJ2021_Credits_Category_Special= Special Thanks
+SJ2021_Credits_Category_Helpers= Tools and Helper Mods
+SJ2021_Credits_Category_Additional= Additional Thanks
+SJ2021_Credits_Thanks= Thanks for playing :)
+
+# TRANSLATION NOTE:
+# The "Special Thanks" credits are in pairs.
+# The first line of each pair is the username and should not be translated.
+# The second line of each pair is a list of roles, which can/should be translated.
+SJ2021_Credits_Names_Special=
+  Fuwamo
+  Endscreen Artist
+  Gamation
+  Multi-Team Captain, Script Specialist
+  Kataiser
+  Playback TASer
+  Moladan
+  Camera Specialist
+
+# DO NOT TRANSLATE
+SJ2021_Credits_Names_Captains_Hosts=
+  Bigkahuna
+  Bissy
+  Linj
+  
+SJ2021_Credits_Names_Captains_Mapping_Beginner=
+  Banana 23
+  Bissy
+  Coffe
+  DanTKO
+  Quinnigan
+  taco360
+SJ2021_Credits_Names_Captains_Mapping_Intermediate=
+  Cookie Monster
+  frozenflygone
+  Holly
+  Rocketguy2
+  Scroogle
+  tobyaaa
+SJ2021_Credits_Names_Captains_Mapping_Advanced=
+  Aiden
+  Oppen
+  PugRoy
+  Worldwaker2
+SJ2021_Credits_Names_Captains_Mapping_Expert=
+  Cabob
+  Ezel
+  Jackal
+  Ru
+SJ2021_Credits_Names_Captains_Mapping_Grandmaster=
+  Cyber
+  DeathKontrol
+  Hydro
+  Soloiini
+  valkyria
+  vitellary
+SJ2021_Credits_Names_Captains_Mapping_Additional=
+  Donker19
+  Etpio
+  Evermar
+  iamdadbod
+  Minemah
+  OkNano
+  RealZeb
+  
+SJ2021_Credits_Names_Captains_Lobby_Prologue=
+  Coffe
+  nerferd_
+  snolls
+SJ2021_Credits_Names_Captains_Lobby_Beginner=
+  Ceph
+  Coffe
+  Owen Shirrell
+SJ2021_Credits_Names_Captains_Lobby_Intermediate=
+  fonda1515
+  Holly
+  Phrog
+  Scroogle
+SJ2021_Credits_Names_Captains_Lobby_Advanced=
+  bryse0n
+  Ceph
+  Jadeturtle
+SJ2021_Credits_Names_Captains_Lobby_Expert=
+  Agent
+  Quinnigan
+  Ru
+SJ2021_Credits_Names_Captains_Lobby_Grandmaster=
+  tobyaaa
+  valkyria
+  
+SJ2021_Credits_Names_Captains_Gym=
+  bryse0n
+  DeathKontrol
+  valkyria
+  
+SJ2021_Credits_Names_Captains_Coding=
+  Cruor
+  Jade
+  maddie480
+  Samah
+  Viv
+  
+SJ2021_Credits_Names_Captains_Art=
+  Flagpole1up
+  Maildropfolder
+  mintberry
+  nerferd_
+  
+SJ2021_Credits_Names_Captains_Music=
+  BeanJammin
+  catapillie
+  Ceph
+  
+SJ2021_Credits_Names_Captains_Decoration=
+  Cookie
+  DanTKO
+  Ezel
+  Linj
+  PowerAV
+  Ru
+  valkyria
+  
+SJ2021_Credits_Names_Captains_Playtesting=
+  Bigkahuna
+  Cabob
+  Soloiini
+  Theta
+  
+SJ2021_Credits_Names_Captains_Pack_Management=
+  Aiden
+  Oppen
+  valkyria
+  
+SJ2021_Credits_Names_Captains_Media=
+  Aiden
+  BeanJammin
+  fonda1515
+  Hydro
+  iamdadbod
+  Kube
+  
+SJ2021_Credits_Names_Captains_Localization=
+  Oppen
+  Pedrocrb
+  Prime
+  
+SJ2021_Credits_Names_Captains_Accessibility=
+  Kube
+
+SJ2021_Credits_Names_Teams_Gameplay_Gym=
+  Agent
+  Aiden
+  Alisticious
+  bryse0n
+  Cabob
+  Circumplex
+  DeathKontrol
+  Ecl1psed
+  elio
+  fonda1515
+  Jadeturtle
+  Owen Shirrell
+  Pedrocrb
+  PowerAV
+  Soloiini
+  Todd
+  valkyria
+  
+SJ2021_Credits_Names_Teams_Coding=
+  AD585
+  Aiden
+  Archra
+  aridai
+  bbb651
+  Bigkahuna
+  Bio
+  Bloom
+  Brokemia
+  catapillie
+  coloursofnoise
+  Cruor
+  DemoJameson
+  FlipKING78
+  hanss314
+  JaThePlayer
+  Kryndolin
+  lilybeevee
+  Lollyde
+  lordseanington
+  Lyra
+  Majora320
+  MathHacker
+  maddie480
+  Mechless Infiltrators
+  Samah
+  Skunkynator
+  SSM24
+  Thomasdb05
+  tobyaaa
+  Vexatos
+  Viv
+  WEGFan
+  
+SJ2021_Credits_Names_Teams_Art=
+  Alex
+  Asgord
+  bryse0n
+  butcherberries
+  CaptnCav
+  Chaotick
+  Charkol
+  Circumplex
+  citrea
+  DanTKO
+  Donker19
+  Dr. Pufferfeesh
+  draconikai
+  Earthwise
+  Eeveeisepic
+  Ekortsec
+  Elsira
+  Flagpole1up
+  fionwe
+  Fuwamo
+  garbo111
+  Glow Woomii
+  J0nas
+  kat
+  LegS
+  Limit
+  Lizard
+  madsh1008
+  Maildropfolder
+  M1n3c4rt
+  mintberry
+  MiraLake
+  mosscairn
+  nerferd_
+  Nikko
+  phant
+  Phrog
+  pixelator
+  Polythesia
+  PowerAV
+  refUnchecked
+  ren
+  SandAnth
+  SchaapMakker
+  Scroogle
+  SirMilkman
+  snolls
+  SpoopySoup
+  TheAdvertisement
+  the_gb
+  TiltTheStars
+  tobyaaa
+  Vamp
+  Vexastrae
+  Wakey
+  Worldwaker2
+  xolimono
+  
+SJ2021_Credits_Names_Teams_Music=
+  Aidan (quadratic97)
+  Aklast
+  Alisticious
+  Anilmky -Juno-
+  April O
+  BeanJammin
+  Bipmo Bopmo
+  bryse0n
+  catapillie
+  CellularAutomaton
+  Ceph
+  Chepaki
+  Circl3s
+  Clospy
+  Dbmaj7
+  Gala
+  Gix
+  Helen
+  Hyperlife
+  Intikus
+  IsayWorks
+  Jamal M.
+  Jemy
+  KAERRA
+  KareemSaysHi
+  Kataiser
+  kenakofer
+  Logan M
+  Maddie Sexton
+  Maladroit
+  Mariocise
+  minecire
+  MiNi
+  monkeyjwzd
+  MooseSR
+  MousseMoose
+  Must Be Tuesday
+  Ogino
+  Original Kyle
+  Rikri
+  snas
+  sonar
+  stycky_keys
+  SUPAHSTAR SAGA
+  Thegur90
+  Tillotman
+  tinyswamp
+  Tortoise
+  TyKim
+  usuyus
+  Wangled Teb
+  
+SJ2021_Credits_Names_Teams_Decoration=
+  ABuffZucchini
+  Aiden
+  Appels
+  BossSauce
+  bryse0n
+  butcherberries
+  citrea
+  Coffe
+  DanTKO
+  eldritchdamsel
+  fonda1515
+  Earthwise
+  Gamation
+  HankyMueller
+  Helen
+  Jadeturtle
+  Kat
+  LegS
+  Linj
+  Lyra
+  Mnstrman06
+  Nyan
+  phant
+  Phrog
+  PowerAV
+  ren
+  Ru
+  Scroogle
+  Soloiini
+  tobyaaa
+  valkyria
+  Vina
+  Worldwaker2
+  Xplosives
+  Yoshachobi7
+  
+SJ2021_Credits_Names_Teams_Playtesting=
+  0dot006prcnts
+  ABuffZucchini
+  AC
+  Advanced Stew
+  Aeter
+  Agent
+  Akie
+  aleph_null
+  AMBERLOVESARCHIE
+  Asterisk
+  AT
+  Bananamath
+  Bean
+  Bigkahuna
+  billy bobby joey
+  Blaxicano55
+  BossSauce
+  bryse0n
+  butcherberries
+  Cactus
+  Calamay
+  Call_Me_Coral
+  calypso
+  carrarium
+  Chiinox
+  Chuckles
+  Comet
+  Computer Badger
+  Cubix
+  Dr. Pufferfeesh
+  Ecl1psed
+  elio
+  EllaTAS
+  elrupio
+  Ema
+  EricJ_Math
+  Feffer
+  Firefox529
+  FireLord
+  fonda1515
+  Fraz.Bright
+  Gamation
+  globglogabgalab
+  Guitar L. Herme
+  h3chgch3
+  Habbedaz
+  Harrysoaps
+  HollowSkillet
+  Hydro
+  jayzan
+  jmeep
+  Jolly
+  Kataiser
+  Kell
+  klice
+  Klyx
+  leBookcase
+  LegS
+  Lephusian
+  Lollyde
+  Maddie Sexton
+  marcinus
+  Matherubik1
+  mattymacky
+  MaxSchnell43
+  Maya
+  McNugget
+  Meario
+  Metaforever
+  metagloria
+  Microwave
+  MindfulOfTacos
+  MousseMoose
+  Nano
+  Nearl
+  Nick_Ambrosia
+  Norah
+  notnot
+  Nyan
+  OliviaPG
+  Owen Shirrell
+  Pedrocrb
+  PowerAV
+  Prime
+  Projecteer
+  quippy
+  Quirren
+  Real Hojo
+  Renatotheflowey
+  Rickfernello
+  ridg
+  Rin_Jagste
+  Salrei’s Hope
+  SergeantSnivy
+  smoothee
+  snolls
+  Snowy
+  SpiritDragon
+  Spirity
+  squang8
+  SSM24
+  subbed74
+  Tato
+  ThallionDarkshine
+  Thomasdb05
+  TiltTheStars
+  Topaz
+  TyKim
+  VA2M
+  vorchi
+  wander and friend
+  Whiskeyjack
+  Worldwaker2
+  Xplosives
+  YaGrillRoborb
+  
+SJ2021_Credits_Names_Overworld=
+  madsh1008
+  Maildropfolder
+  Mr.Who
+  nerferd_
+  valkyria
+  Vamp
+  
+SJ2021_Credits_Names_UX_Design=
+  Circumplex
+  nerferd_
+  Vexastrae
+  
+SJ2021_Credits_Names_Helpers=
+  Adventure Helper
+  Ahorn
+  Anonhelper
+  Batteries
+  BGswitch
+  Bounce Helper
+  Brokemia Helper
+  Canyon Helper
+  Cavern Helper
+  Cherry Helper
+  Collab Utils 2
+  Colored Lights
+  Communal Helper
+  Contort Helper
+  Crystalline Helper
+  Disposable Theo
+  DJ Map Helper
+  Eevee Helper
+  Em Helper
+  Everest
+  Extended Variant Mode
+  Factory Helper
+  Fancy Tile Entities
+  Femto Helper
+  Flaglines and Such
+  Frost Helper
+  Furry Helper
+  Gravity Helper
+  Honly Helper
+  Isa's Grab Bag
+  Jackal Helper
+  Jungle Helper
+  Lönn
+  Lua Cutscenes
+  Lunatic Helper
+  maddie480's Helping Hand
+  Memorial Helper
+  More Dasheline
+  Outback Helper
+  Pandora's Box
+  Safe Respawn Crumble
+  Sardine7
+  Shroom Helper
+  Sorbet Helper
+  Spirialis Helper
+  Twig Helper
+  Viv Helper
+  Vortex Helper
+  Xaphan Helper
+  Yet Another Helper
+
+# SJ Helper Dialogue
+StrawberryJam2021_Menu_Hint= Hint
+StrawberryJam2021_Entities_SolarElevator_DefaultHint= This elevator requires a holdable entity.
+StrawberryJam2021_DisplayDashSequence= Display Dash Sequence
+StrawberryJam2021_TogglePlaybacks= Toggle Playbacks
